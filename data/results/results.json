@@ -1,0 +1,2248 @@
+{
+    "results": [
+        {
+            "title": "Rot",
+            "artist": "Northlane",
+            "album": "Node",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273581b922a0cf267bd7e3a7ffa",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 5,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                },
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 5,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                },
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 6,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                },
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 7,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                },
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 25,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 1,
+            "points": 820,
+            "youtube_url": "https://www.youtube.com/watch?v=AZ5NI35Bg-I",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\AZ5NI35Bg-I.mp4"
+        },
+        {
+            "title": "Doomed",
+            "artist": "Bring Me The Horizon",
+            "album": "That's The Spirit",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273413697269620e16f4466f543",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 1,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                },
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 2,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                },
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 8,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                },
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 19,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 2,
+            "points": 740,
+            "youtube_url": "https://www.youtube.com/watch?v=OGc9W-_C9u0",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\OGc9W-_C9u0.mp4"
+        },
+        {
+            "title": "Nerve",
+            "artist": "The Story So Far",
+            "album": "The Story So Far",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273292bd4df985abda5c2891ecb",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 3,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                },
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 3,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                },
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 14,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                },
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 15,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 3,
+            "points": 690,
+            "youtube_url": "https://www.youtube.com/watch?v=2lHoWL2wrj8",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\2lHoWL2wrj8.mp4"
+        },
+        {
+            "title": "Drown",
+            "artist": "Bring Me The Horizon",
+            "album": "That's The Spirit",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273413697269620e16f4466f543",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 4,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                },
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 7,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                },
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 14,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 4,
+            "points": 530,
+            "youtube_url": "https://www.youtube.com/watch?v=TkV5709EG5M",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\TkV5709EG5M.mp4"
+        },
+        {
+            "title": "Gold Steps",
+            "artist": "Neck Deep",
+            "album": "Life's Not Out To Get You",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27382a3560435840c14a72f6b6e",
+            "voters": [
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 1,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                },
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 12,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                },
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 14,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 5,
+            "points": 510,
+            "youtube_url": "https://www.youtube.com/watch?v=tlO-KOvpPOw",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\tlO-KOvpPOw.mp4"
+        },
+        {
+            "title": "Kali Ma",
+            "artist": "Neck Deep",
+            "album": "Life's Not Out To Get You",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27382a3560435840c14a72f6b6e",
+            "voters": [
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 2,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                },
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 11,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 6,
+            "points": 390,
+            "youtube_url": "https://www.youtube.com/watch?v=wElVp9HzCt8",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\wElVp9HzCt8.mp4"
+        },
+        {
+            "title": "Can't Kick Up The Roots",
+            "artist": "Neck Deep",
+            "album": "Life's Not Out To Get You",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27382a3560435840c14a72f6b6e",
+            "voters": [
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 3,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                },
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 12,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 7,
+            "points": 370,
+            "youtube_url": "https://www.youtube.com/watch?v=d6uIsM7s6pY",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\d6uIsM7s6pY.mp4"
+        },
+        {
+            "title": "Heavy Gloom",
+            "artist": "The Story So Far",
+            "album": "The Story So Far",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273292bd4df985abda5c2891ecb",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 8,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                },
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 16,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                },
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 18,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 8,
+            "points": 360,
+            "youtube_url": "https://www.youtube.com/watch?v=SYC416R7DJU",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\SYC416R7DJU.mp4"
+        },
+        {
+            "title": "Smooth Seas Don't Make Good Sailors",
+            "artist": "Neck Deep",
+            "album": "Life's Not Out To Get You",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27382a3560435840c14a72f6b6e",
+            "voters": [
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 4,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                },
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 13,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 9,
+            "points": 350,
+            "youtube_url": "https://www.youtube.com/watch?v=2H7ly9xZa5o",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\2H7ly9xZa5o.mp4"
+        },
+        {
+            "title": "Cement",
+            "artist": "Citizen",
+            "album": "Everybody is Going to Heaven",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2734824803e2d004cf509a8e9dc",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 2,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                },
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 16,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 10,
+            "points": 340,
+            "youtube_url": "https://www.youtube.com/watch?v=qIEtfoolTWM",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\qIEtfoolTWM.mp4"
+        },
+        {
+            "title": "Numb Yourself",
+            "artist": "Citizen",
+            "album": "Everybody is Going to Heaven",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2734824803e2d004cf509a8e9dc",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 2,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                },
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 16,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 11,
+            "points": 340,
+            "youtube_url": "https://www.youtube.com/watch?v=xnqNGOhfptc",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\xnqNGOhfptc.mp4"
+        },
+        {
+            "title": "First World Problem Child",
+            "artist": "Stray From The Path",
+            "album": "Subliminal Criminals",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2735d7164637e6a9230d9b3be12",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 10,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                },
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 11,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                }
+            ],
+            "rank": 12,
+            "points": 310,
+            "youtube_url": "https://www.youtube.com/watch?v=5lI2yIbqTc0",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\5lI2yIbqTc0.mp4"
+        },
+        {
+            "title": "Leech",
+            "artist": "Northlane",
+            "album": "Node",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273581b922a0cf267bd7e3a7ffa",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 10,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                },
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 12,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 13,
+            "points": 300,
+            "youtube_url": "https://www.youtube.com/watch?v=NpM4kJXvGlw",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\NpM4kJXvGlw.mp4"
+        },
+        {
+            "title": "Coffee Talk",
+            "artist": "Broadside",
+            "album": "Old Bones",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273acecc47330fcbd162efe4921",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 5,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                },
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 17,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                }
+            ],
+            "rank": 14,
+            "points": 300,
+            "youtube_url": "https://www.youtube.com/watch?v=lEbaT5gvrP8",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\lEbaT5gvrP8.mp4"
+        },
+        {
+            "title": "Serpents",
+            "artist": "Neck Deep",
+            "album": "Life's Not Out To Get You",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27382a3560435840c14a72f6b6e",
+            "voters": [
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 10,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                },
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 15,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 15,
+            "points": 270,
+            "youtube_url": "https://www.youtube.com/watch?v=ReXRXxbeZ_I",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\ReXRXxbeZ_I.mp4"
+        },
+        {
+            "title": "Cutting My Fingers Off",
+            "artist": "Turnover",
+            "album": "Peripheral Vision",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273272b25d6d0be3322363f1565",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 1,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 16,
+            "points": 250,
+            "youtube_url": "https://www.youtube.com/watch?v=52XkwbW-wU8",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\52XkwbW-wU8.mp4"
+        },
+        {
+            "title": "Blood Moon",
+            "artist": "Make Them Suffer",
+            "album": "Old Souls",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2736969537e7380447e026b3fdb",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 1,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 17,
+            "points": 250,
+            "youtube_url": "https://www.youtube.com/watch?v=15y28nHMbAQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\15y28nHMbAQ.mp4"
+        },
+        {
+            "title": "Onyx",
+            "artist": "The Afterimage",
+            "album": "Lumi\u00c3\u00a8re",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273e10e232021be2384e45c988b",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 1,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 18,
+            "points": 250,
+            "youtube_url": "https://www.youtube.com/watch?v=S29rUoC28_I",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\S29rUoC28_I.mp4"
+        },
+        {
+            "title": "Fade",
+            "artist": "Casey",
+            "album": "Fade",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273f6f3eda776a9bedb5f16921f",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 1,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 19,
+            "points": 250,
+            "youtube_url": "https://www.youtube.com/watch?v=8cT0Udm9Ke4",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\8cT0Udm9Ke4.mp4"
+        },
+        {
+            "title": "Throne",
+            "artist": "Bring Me The Horizon",
+            "album": "That's The Spirit (Clean)",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2731f6dcc93154b7cc0ef362470",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 6,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                },
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 22,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 20,
+            "points": 240,
+            "youtube_url": "https://www.youtube.com/watch?v=Ow_qI_F2ZJI",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\Ow_qI_F2ZJI.mp4"
+        },
+        {
+            "title": "Crushed",
+            "artist": "Parkway Drive",
+            "album": "Ire",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27324ff99d1b8458e79c7f3b9ae",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 3,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                },
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 25,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 21,
+            "points": 240,
+            "youtube_url": "https://www.youtube.com/watch?v=9m4685liWb0",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\9m4685liWb0.mp4"
+        },
+        {
+            "title": "Supernova",
+            "artist": "The Devil Wears Prada",
+            "album": "Supernova",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273137c79cb58b97dcab38bdf88",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 2,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                }
+            ],
+            "rank": 22,
+            "points": 240,
+            "youtube_url": "https://www.youtube.com/watch?v=jvNJPWnp7sQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\jvNJPWnp7sQ.mp4"
+        },
+        {
+            "title": "Hell",
+            "artist": "Casey",
+            "album": "Fade",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273f6f3eda776a9bedb5f16921f",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 2,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 23,
+            "points": 240,
+            "youtube_url": "https://www.youtube.com/watch?v=UEcvC4rZ0po",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\UEcvC4rZ0po.mp4"
+        },
+        {
+            "title": "Secrets",
+            "artist": "State Champs",
+            "album": "Around the World and Back",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273236d1a5b4ee552965439d22e",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 6,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                },
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 22,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                }
+            ],
+            "rank": 24,
+            "points": 240,
+            "youtube_url": "https://www.youtube.com/watch?v=pVY0G-uJCBo",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\pVY0G-uJCBo.mp4"
+        },
+        {
+            "title": "Happy Song",
+            "artist": "Bring Me The Horizon",
+            "album": "That's The Spirit",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273413697269620e16f4466f543",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 11,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                },
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 18,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                }
+            ],
+            "rank": 25,
+            "points": 230,
+            "youtube_url": "https://www.youtube.com/watch?v=GBRAnuT48qo",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\GBRAnuT48qo.mp4"
+        },
+        {
+            "title": "The River",
+            "artist": "Wage War",
+            "album": "Blueprints",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27312c818d06daeb335dee64d36",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 3,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 26,
+            "points": 230,
+            "youtube_url": "https://www.youtube.com/watch?v=IMyv2QJCyt4",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\IMyv2QJCyt4.mp4"
+        },
+        {
+            "title": "Hypernight",
+            "artist": "Title Fight",
+            "album": "Hyperview",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273db279bcf1be989809b7f576b",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 3,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 27,
+            "points": 230,
+            "youtube_url": "https://www.youtube.com/watch?v=rLwklXQ510o",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\rLwklXQ510o.mp4"
+        },
+        {
+            "title": "The Earth Will Turn",
+            "artist": "Dayseeker",
+            "album": "Origin (Deluxe Edition)",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273365fa370d3246810b2bf8929",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 4,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 28,
+            "points": 220,
+            "youtube_url": "https://www.youtube.com/watch?v=t97wROcyvYw",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\t97wROcyvYw.mp4"
+        },
+        {
+            "title": "Wish You Were Here - Pink Floyd Cover",
+            "artist": "Elder Brother",
+            "album": "Wish You Were Here",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273743721169d99f9d0ffc31948",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 4,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 29,
+            "points": 220,
+            "youtube_url": "https://www.youtube.com/watch?v=Z-OM9h099gY",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\Z-OM9h099gY.mp4"
+        },
+        {
+            "title": "Teach You How To Leave",
+            "artist": "Endless Heights",
+            "album": "Teach You How To Leave",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273d015f0ec8ef58f22ec47ef38",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 4,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 30,
+            "points": 220,
+            "youtube_url": "https://www.youtube.com/watch?v=k74nwK2gq-g",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\k74nwK2gq-g.mp4"
+        },
+        {
+            "title": "Losing Myself",
+            "artist": "State Champs",
+            "album": "Around the World and Back",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273236d1a5b4ee552965439d22e",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 4,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 31,
+            "points": 220,
+            "youtube_url": "https://www.youtube.com/watch?v=cMdxoWnqLJo",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\cMdxoWnqLJo.mp4"
+        },
+        {
+            "title": "New Scream",
+            "artist": "Turnover",
+            "album": "Peripheral Vision",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273272b25d6d0be3322363f1565",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 5,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 32,
+            "points": 210,
+            "youtube_url": "https://www.youtube.com/watch?v=TkASFXeAafU",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\TkASFXeAafU.mp4"
+        },
+        {
+            "title": "Tired Eyes",
+            "artist": "Ambleside",
+            "album": "New Tide",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273947ba757de682f31b9d94c17",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 10,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                },
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 21,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                }
+            ],
+            "rank": 33,
+            "points": 210,
+            "youtube_url": "https://www.youtube.com/watch?v=QWdkh6rH61k",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\QWdkh6rH61k.mp4"
+        },
+        {
+            "title": "Ohm",
+            "artist": "Northlane",
+            "album": "Node",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273581b922a0cf267bd7e3a7ffa",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 5,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 34,
+            "points": 210,
+            "youtube_url": "https://www.youtube.com/watch?v=MTws0dvHhZ8",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\MTws0dvHhZ8.mp4"
+        },
+        {
+            "title": "The Beach Is For Lovers (Not Lonely Losers)",
+            "artist": "Neck Deep",
+            "album": "Life's Not Out To Get You",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27382a3560435840c14a72f6b6e",
+            "voters": [
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 5,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                }
+            ],
+            "rank": 35,
+            "points": 210,
+            "youtube_url": "https://www.youtube.com/watch?v=HzZGLOfIxkM",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\HzZGLOfIxkM.mp4"
+        },
+        {
+            "title": "Fake",
+            "artist": "Make Them Suffer",
+            "album": "Old Souls",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2736969537e7380447e026b3fdb",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 6,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 36,
+            "points": 200,
+            "youtube_url": "https://www.youtube.com/watch?v=WRB4mrSun28",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\WRB4mrSun28.mp4"
+        },
+        {
+            "title": "Lime St.",
+            "artist": "Neck Deep",
+            "album": "Life's Not Out To Get You",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27382a3560435840c14a72f6b6e",
+            "voters": [
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 6,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                }
+            ],
+            "rank": 37,
+            "points": 200,
+            "youtube_url": "https://www.youtube.com/watch?v=YKHqzYi8cN8",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\YKHqzYi8cN8.mp4"
+        },
+        {
+            "title": "Unseen",
+            "artist": "The Afterimage",
+            "album": "Lumi\u00c3\u00a8re",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273e10e232021be2384e45c988b",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 6,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 38,
+            "points": 200,
+            "youtube_url": "https://www.youtube.com/watch?v=BpKT_oooX9o",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\BpKT_oooX9o.mp4"
+        },
+        {
+            "title": "The Other Line",
+            "artist": "Chunk! No, Captain Chunk!",
+            "album": "Get Lost, Find Yourself",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27315aa37b4980e1b57187e1e56",
+            "voters": [
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 12,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                },
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 21,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 39,
+            "points": 190,
+            "youtube_url": "https://www.youtube.com/watch?v=ZHz2Fln_ToI",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\ZHz2Fln_ToI.mp4"
+        },
+        {
+            "title": "Cottonmouth",
+            "artist": "In Hearts Wake",
+            "album": "Skydancer",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27384c8ddba102429bdf102f842",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 7,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                }
+            ],
+            "rank": 40,
+            "points": 190,
+            "youtube_url": "https://www.youtube.com/watch?v=4WqzgGyJJYE",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\4WqzgGyJJYE.mp4"
+        },
+        {
+            "title": "Follow You",
+            "artist": "Bring Me The Horizon",
+            "album": "That's The Spirit",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273413697269620e16f4466f543",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 19,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                },
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 19,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                },
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 21,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 41,
+            "points": 190,
+            "youtube_url": "https://www.youtube.com/watch?v=-tVWt2RDsoM",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\-tVWt2RDsoM.mp4"
+        },
+        {
+            "title": "Under Haze",
+            "artist": "Stories",
+            "album": "The Youth to Become",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273aa0c3de559e4baae99ebbd65",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 7,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 42,
+            "points": 190,
+            "youtube_url": "https://www.youtube.com/watch?v=iKRejeIBbJE",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\iKRejeIBbJE.mp4"
+        },
+        {
+            "title": "Threat Level Midnight",
+            "artist": "Neck Deep",
+            "album": "Life's Not Out To Get You",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27382a3560435840c14a72f6b6e",
+            "voters": [
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 7,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                }
+            ],
+            "rank": 43,
+            "points": 190,
+            "youtube_url": "https://www.youtube.com/watch?v=IK6h-vylrAo",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\IK6h-vylrAo.mp4"
+        },
+        {
+            "title": "Shutdown...",
+            "artist": "DVSR",
+            "album": "D.V.S.R",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273d99f513195c6cd3dc63ddf2f",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 7,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 44,
+            "points": 190,
+            "youtube_url": "https://www.youtube.com/watch?v=JIgADt2FYaM",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\JIgADt2FYaM.mp4"
+        },
+        {
+            "title": "Nerve Endings",
+            "artist": "Too Close To Touch",
+            "album": "Nerve Endings",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2732bc4bb22068d851d3d10f932",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 8,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 45,
+            "points": 180,
+            "youtube_url": "https://www.youtube.com/watch?v=8No28NDPEJc",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\8No28NDPEJc.mp4"
+        },
+        {
+            "title": "Bottom Feeder",
+            "artist": "Parkway Drive",
+            "album": "Ire",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27324ff99d1b8458e79c7f3b9ae",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 10,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                },
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 24,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                }
+            ],
+            "rank": 46,
+            "points": 180,
+            "youtube_url": "https://www.youtube.com/watch?v=QmtRMoMWUKE",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\QmtRMoMWUKE.mp4"
+        },
+        {
+            "title": "Elektra",
+            "artist": "Refused",
+            "album": "Freedom",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27388b6b5c1d6aa9410fcf56e5c",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 8,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                }
+            ],
+            "rank": 47,
+            "points": 180,
+            "youtube_url": "https://www.youtube.com/watch?v=wRMXTvsCBwQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\wRMXTvsCBwQ.mp4"
+        },
+        {
+            "title": "Rock Bottom",
+            "artist": "Neck Deep",
+            "album": "Life's Not Out To Get You",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27382a3560435840c14a72f6b6e",
+            "voters": [
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 8,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                }
+            ],
+            "rank": 48,
+            "points": 180,
+            "youtube_url": "https://www.youtube.com/watch?v=7HA90nu0wZs",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\7HA90nu0wZs.mp4"
+        },
+        {
+            "title": "Fair Weather",
+            "artist": "WSTR",
+            "album": "SKRWD",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27349ea1909c71c8bde15dcdfd3",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 8,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 49,
+            "points": 180,
+            "youtube_url": "https://www.youtube.com/watch?v=oYV-1DR4dHc",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\oYV-1DR4dHc.mp4"
+        },
+        {
+            "title": "Let Me In",
+            "artist": "Make Them Suffer",
+            "album": "Old Souls",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2736969537e7380447e026b3fdb",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 9,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 50,
+            "points": 170,
+            "youtube_url": "https://www.youtube.com/watch?v=gPPs897BANo",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\gPPs897BANo.mp4"
+        },
+        {
+            "title": "Hurt You",
+            "artist": "Foreign Tongues",
+            "album": "Fragile, As Said Before",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273f2a51fa161c2ab56717292da",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 9,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 51,
+            "points": 170,
+            "youtube_url": "https://www.youtube.com/watch?v=ISCThSrtYc8",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\ISCThSrtYc8.mp4"
+        },
+        {
+            "title": "Using",
+            "artist": "Sorority Noise",
+            "album": "Joy, Departed",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273edbbf03fb309c1cfe58db5ef",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 9,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 52,
+            "points": 170,
+            "youtube_url": "https://www.youtube.com/watch?v=_JPecqm1VZQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\_JPecqm1VZQ.mp4"
+        },
+        {
+            "title": "I Hope This Comes Back To Haunt You",
+            "artist": "Neck Deep",
+            "album": "Life's Not Out To Get You",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27382a3560435840c14a72f6b6e",
+            "voters": [
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 9,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                }
+            ],
+            "rank": 53,
+            "points": 170,
+            "youtube_url": "https://www.youtube.com/watch?v=RrGf4SfFsP0",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\RrGf4SfFsP0.mp4"
+        },
+        {
+            "title": "Graveyard Shift",
+            "artist": "WSTR",
+            "album": "SKRWD",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27349ea1909c71c8bde15dcdfd3",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 9,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 54,
+            "points": 170,
+            "youtube_url": "https://www.youtube.com/watch?v=BXvNQz4Gg0c",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\BXvNQz4Gg0c.mp4"
+        },
+        {
+            "title": "All You Are Is History",
+            "artist": "State Champs",
+            "album": "Around the World and Back",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273236d1a5b4ee552965439d22e",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 15,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                },
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 20,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                }
+            ],
+            "rank": 55,
+            "points": 170,
+            "youtube_url": "https://www.youtube.com/watch?v=vsJEC3Ar_ss",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\vsJEC3Ar_ss.mp4"
+        },
+        {
+            "title": "Alien",
+            "artist": "The Devil Wears Prada",
+            "album": "Alien",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273f8713a9fe53911d0c83bc131",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 9,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                }
+            ],
+            "rank": 56,
+            "points": 170,
+            "youtube_url": "https://www.youtube.com/watch?v=EiYMS1z8Lrw",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\EiYMS1z8Lrw.mp4"
+        },
+        {
+            "title": "Gravity",
+            "artist": "Turnstile",
+            "album": "Nonstop Feeling",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27317bafa76e1da26c7167e5192",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 10,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 57,
+            "points": 160,
+            "youtube_url": "https://www.youtube.com/watch?v=_yQTDyqW_lg",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\_yQTDyqW_lg.mp4"
+        },
+        {
+            "title": "Buried Alive",
+            "artist": "Get Scared",
+            "album": "Demons",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273879ea977ebf34065a0360165",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 11,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 58,
+            "points": 150,
+            "youtube_url": "https://www.youtube.com/watch?v=05cn8gccpOQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\05cn8gccpOQ.mp4"
+        },
+        {
+            "title": "Wish You Were Here",
+            "artist": "Elder Brother",
+            "album": "Wish You Were Here",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273743721169d99f9d0ffc31948",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 11,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 59,
+            "points": 150,
+            "youtube_url": "https://www.youtube.com/watch?v=mGsOWbFGDTs",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\mGsOWbFGDTs.mp4"
+        },
+        {
+            "title": "Perfect Pillow",
+            "artist": "Chon",
+            "album": "Grow",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2738f3dcc4325361891491eb4d9",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 11,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 60,
+            "points": 150,
+            "youtube_url": "https://www.youtube.com/watch?v=3aSX_hYpVXg",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\3aSX_hYpVXg.mp4"
+        },
+        {
+            "title": "Hey Jarrod, What's That Song Again?",
+            "artist": "Jarrod Alonge",
+            "album": "Beating a Dead Horse: Deluxe Ultra-Limited Exclusive Undead Edition",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27370a67a5833b24e7d1666c822",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 16,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                },
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 23,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                },
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 25,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                }
+            ],
+            "rank": 61,
+            "points": 140,
+            "youtube_url": "https://www.youtube.com/watch?v=i5elyAwPSH0",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\i5elyAwPSH0.mp4"
+        },
+        {
+            "title": "Time Bomb",
+            "artist": "Cane Hill",
+            "album": "Cane Hill",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27380b8c3c47788f29764e7f444",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 12,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 62,
+            "points": 140,
+            "youtube_url": "https://www.youtube.com/watch?v=k4xUUr1EwsQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\k4xUUr1EwsQ.mp4"
+        },
+        {
+            "title": "One Of Them Will Destroy The Other",
+            "artist": "Mayday Parade",
+            "album": "Black Lines",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27355800d07b40204ec1fdd4f70",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 12,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                }
+            ],
+            "rank": 63,
+            "points": 140,
+            "youtube_url": "https://www.youtube.com/watch?v=ylY1RUk4vHQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\ylY1RUk4vHQ.mp4"
+        },
+        {
+            "title": "Planet A",
+            "artist": "The Devil Wears Prada",
+            "album": "Space",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273e994221d74379a7db1dc0ea9",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 13,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 64,
+            "points": 130,
+            "youtube_url": "https://www.youtube.com/watch?v=ECzvF3oAW68",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\ECzvF3oAW68.mp4"
+        },
+        {
+            "title": "Disdain",
+            "artist": "Knuckle Puck",
+            "album": "Copacetic",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2739961af823171cad5d130a788",
+            "voters": [
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 13,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                }
+            ],
+            "rank": 65,
+            "points": 130,
+            "youtube_url": "https://www.youtube.com/watch?v=dAGcWrgYY9c",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\dAGcWrgYY9c.mp4"
+        },
+        {
+            "title": "I've Been Bored",
+            "artist": "Superheaven",
+            "album": "Ours Is Chrome",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2733a8b896743fb4053714e2a27",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 13,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 66,
+            "points": 130,
+            "youtube_url": "https://www.youtube.com/watch?v=TeVYgjYYxBc",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\TeVYgjYYxBc.mp4"
+        },
+        {
+            "title": "The Last Garrison",
+            "artist": "Enter Shikari",
+            "album": "The Mindsweep",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2739abcdb0935c38b40febba6e5",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 13,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                }
+            ],
+            "rank": 67,
+            "points": 130,
+            "youtube_url": "https://www.youtube.com/watch?v=TUAgotnkrL4",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\TUAgotnkrL4.mp4"
+        },
+        {
+            "title": "Splash",
+            "artist": "Chon",
+            "album": "Grow",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2738f3dcc4325361891491eb4d9",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 13,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 68,
+            "points": 130,
+            "youtube_url": "https://www.youtube.com/watch?v=ZTYdAmOPd1M",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\ZTYdAmOPd1M.mp4"
+        },
+        {
+            "title": "Old Souls",
+            "artist": "Make Them Suffer",
+            "album": "Old Souls",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2736969537e7380447e026b3fdb",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 14,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 69,
+            "points": 120,
+            "youtube_url": "https://www.youtube.com/watch?v=XFYHlyfh-1Y",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\XFYHlyfh-1Y.mp4"
+        },
+        {
+            "title": "Blasphemy",
+            "artist": "Bring Me The Horizon",
+            "album": "That's The Spirit (Clean)",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2731f6dcc93154b7cc0ef362470",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 14,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                }
+            ],
+            "rank": 70,
+            "points": 120,
+            "youtube_url": "https://www.youtube.com/watch?v=zCK7Yl5BKXo",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\zCK7Yl5BKXo.mp4"
+        },
+        {
+            "title": "Mrahc",
+            "artist": "Title Fight",
+            "album": "Hyperview",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273db279bcf1be989809b7f576b",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 14,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 71,
+            "points": 120,
+            "youtube_url": "https://www.youtube.com/watch?v=ID_g5U-7zqI",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\ID_g5U-7zqI.mp4"
+        },
+        {
+            "title": "An Asteroid Towards Earth",
+            "artist": "The Devil Wears Prada",
+            "album": "Space",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273e994221d74379a7db1dc0ea9",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 15,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                }
+            ],
+            "rank": 72,
+            "points": 110,
+            "youtube_url": "https://www.youtube.com/watch?v=tC0SrW1U0BM",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\tC0SrW1U0BM.mp4"
+        },
+        {
+            "title": "Untitled",
+            "artist": "Knuckle Puck",
+            "album": "Copacetic",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2739961af823171cad5d130a788",
+            "voters": [
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 15,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                }
+            ],
+            "rank": 73,
+            "points": 110,
+            "youtube_url": "https://www.youtube.com/watch?v=m6yED9alU98",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\m6yED9alU98.mp4"
+        },
+        {
+            "title": "Drop",
+            "artist": "Turnstile",
+            "album": "Nonstop Feeling",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27317bafa76e1da26c7167e5192",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 15,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 74,
+            "points": 110,
+            "youtube_url": "https://www.youtube.com/watch?v=CGPCxkyTXsY",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\CGPCxkyTXsY.mp4"
+        },
+        {
+            "title": "Origin",
+            "artist": "Dayseeker",
+            "album": "Origin (Deluxe Edition)",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273365fa370d3246810b2bf8929",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 16,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 75,
+            "points": 100,
+            "youtube_url": "https://www.youtube.com/watch?v=VHu0jGnxPY0",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\VHu0jGnxPY0.mp4"
+        },
+        {
+            "title": "A Few Peaceful Days",
+            "artist": "Crooks UK",
+            "album": "Are We All the Same Distance Apart",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2736dd78f14c86f1d2d183db98c",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 16,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 76,
+            "points": 100,
+            "youtube_url": "https://www.youtube.com/watch?v=Tq1xDByyq2g",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\Tq1xDByyq2g.mp4"
+        },
+        {
+            "title": "True Friends",
+            "artist": "Bring Me The Horizon",
+            "album": "That's The Spirit",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273413697269620e16f4466f543",
+            "voters": [
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 21,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                },
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 22,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                }
+            ],
+            "rank": 77,
+            "points": 90,
+            "youtube_url": "https://www.youtube.com/watch?v=BpmJh2CjSIA",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\BpmJh2CjSIA.mp4"
+        },
+        {
+            "title": "Old Friends / New War",
+            "artist": "Refused",
+            "album": "Freedom",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27388b6b5c1d6aa9410fcf56e5c",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 17,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                }
+            ],
+            "rank": 78,
+            "points": 90,
+            "youtube_url": "https://www.youtube.com/watch?v=o6YhIP9RIqI",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\o6YhIP9RIqI.mp4"
+        },
+        {
+            "title": "Narrow Mouth",
+            "artist": "The Early November",
+            "album": "Imbue",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273e0ef42a53ae44f65fee1bfeb",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 17,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 79,
+            "points": 90,
+            "youtube_url": "https://www.youtube.com/watch?v=KoTG3NH4EzM",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\KoTG3NH4EzM.mp4"
+        },
+        {
+            "title": "Anne Hathaway",
+            "artist": "Rarity",
+            "album": "Alive In Your Eyes",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2730191e1c8450f86a3ce1ab46d",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 17,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 80,
+            "points": 90,
+            "youtube_url": "https://www.youtube.com/watch?v=Jb1teom9zGs",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\Jb1teom9zGs.mp4"
+        },
+        {
+            "title": "Death of a Strawberry",
+            "artist": "Dance Gavin Dance",
+            "album": "Instant Gratification",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27314aa4cfe5ecdda0497d4ff82",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 17,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 81,
+            "points": 90,
+            "youtube_url": "https://www.youtube.com/watch?v=FHh3fFPKlD4",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\FHh3fFPKlD4.mp4"
+        },
+        {
+            "title": "Sch\u00c3\u00b6ne Seele",
+            "artist": "Crooks UK",
+            "album": "Are We All the Same Distance Apart",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2736dd78f14c86f1d2d183db98c",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 17,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 82,
+            "points": 90,
+            "youtube_url": "https://www.youtube.com/watch?v=R2tk8AavZoc",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\R2tk8AavZoc.mp4"
+        },
+        {
+            "title": "Debate",
+            "artist": "Landon Tewers",
+            "album": "Ai640",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273e7f75c72049ad9707ce6a4cb",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 18,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 83,
+            "points": 80,
+            "youtube_url": "https://www.youtube.com/watch?v=j9Fdop9gmOI",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\j9Fdop9gmOI.mp4"
+        },
+        {
+            "title": "Trace Me Onto You",
+            "artist": "Title Fight",
+            "album": "Hyperview",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273db279bcf1be989809b7f576b",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 18,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 84,
+            "points": 80,
+            "youtube_url": "https://www.youtube.com/watch?v=r6Jsvmzh_ec",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\r6Jsvmzh_ec.mp4"
+        },
+        {
+            "title": "Impulse",
+            "artist": "Northlane",
+            "album": "Node",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273581b922a0cf267bd7e3a7ffa",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 18,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 85,
+            "points": 80,
+            "youtube_url": "https://www.youtube.com/watch?v=EfwiCoTXyiM",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\EfwiCoTXyiM.mp4"
+        },
+        {
+            "title": "What You Need",
+            "artist": "Bring Me The Horizon",
+            "album": "That's The Spirit",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273413697269620e16f4466f543",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 18,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                }
+            ],
+            "rank": 86,
+            "points": 80,
+            "youtube_url": "https://www.youtube.com/watch?v=k48k3BUdcXQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\k48k3BUdcXQ.mp4"
+        },
+        {
+            "title": "OxBlood",
+            "artist": "Cane Hill",
+            "album": "Cane Hill",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27380b8c3c47788f29764e7f444",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 19,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 87,
+            "points": 70,
+            "youtube_url": "https://www.youtube.com/watch?v=O8aVXah1rIY",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\O8aVXah1rIY.mp4"
+        },
+        {
+            "title": "Teeth",
+            "artist": "Casey",
+            "album": "Fade",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273f6f3eda776a9bedb5f16921f",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 19,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 88,
+            "points": 70,
+            "youtube_url": "https://www.youtube.com/watch?v=gBeAYgZDkyo",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\gBeAYgZDkyo.mp4"
+        },
+        {
+            "title": "We Own the Night",
+            "artist": "Dance Gavin Dance",
+            "album": "Instant Gratification",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27314aa4cfe5ecdda0497d4ff82",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 19,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 89,
+            "points": 70,
+            "youtube_url": "https://www.youtube.com/watch?v=Qq_caFxzKqg",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\Qq_caFxzKqg.mp4"
+        },
+        {
+            "title": "The Swimmer",
+            "artist": "Jarrod Alonge",
+            "album": "Beating a Dead Horse: Deluxe Ultra-Limited Exclusive Undead Edition",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27370a67a5833b24e7d1666c822",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 20,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 90,
+            "points": 60,
+            "youtube_url": "https://www.youtube.com/watch?v=DVg_NdkJUkQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\DVg_NdkJUkQ.mp4"
+        },
+        {
+            "title": "How You Are",
+            "artist": "The Story So Far",
+            "album": "The Story So Far",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273292bd4df985abda5c2891ecb",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 20,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 91,
+            "points": 60,
+            "youtube_url": "https://www.youtube.com/watch?v=CpNK6zSF98k",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\CpNK6zSF98k.mp4"
+        },
+        {
+            "title": "I Don't Like Who I Was Then",
+            "artist": "The Wonder Years",
+            "album": "No Closer To Heaven",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273a1e24fe1cf41c57615319325",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 20,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 92,
+            "points": 60,
+            "youtube_url": "https://www.youtube.com/watch?v=G3Z3IQqKbdQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\G3Z3IQqKbdQ.mp4"
+        },
+        {
+            "title": "Sleep Paralysis",
+            "artist": "Currents",
+            "album": "Life // Lost",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273ed3fd8902b146e4278dad6b8",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 20,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                }
+            ],
+            "rank": 93,
+            "points": 60,
+            "youtube_url": "https://www.youtube.com/watch?v=U69NRqokZxk",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\U69NRqokZxk.mp4"
+        },
+        {
+            "title": "Best Mistake",
+            "artist": "Seaway",
+            "album": "Colour Blind",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273132c4c5219c0b7156032d8fe",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 20,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 94,
+            "points": 60,
+            "youtube_url": "https://www.youtube.com/watch?v=VTY7dFvMVSs",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\VTY7dFvMVSs.mp4"
+        },
+        {
+            "title": "Stain",
+            "artist": "Citizen",
+            "album": "Everybody is Going to Heaven",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2734824803e2d004cf509a8e9dc",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 21,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 95,
+            "points": 50,
+            "youtube_url": "https://www.youtube.com/watch?v=7Z6I_qGkGQ0",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\7Z6I_qGkGQ0.mp4"
+        },
+        {
+            "title": "Daylight",
+            "artist": "No! Not the Bees!",
+            "album": "Daylight",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273d113eb2273538037a3336496",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 21,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 96,
+            "points": 50,
+            "youtube_url": "https://www.youtube.com/watch?v=ngDIejaxtcI",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\ngDIejaxtcI.mp4"
+        },
+        {
+            "title": "Ring of Chain",
+            "artist": "Citizen",
+            "album": "Everybody is Going to Heaven",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2734824803e2d004cf509a8e9dc",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 22,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 97,
+            "points": 40,
+            "youtube_url": "https://www.youtube.com/watch?v=DrfTXyf8YIQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\DrfTXyf8YIQ.mp4"
+        },
+        {
+            "title": "A False Sense of Security",
+            "artist": "Stories",
+            "album": "The Youth to Become",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273aa0c3de559e4baae99ebbd65",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 22,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 98,
+            "points": 40,
+            "youtube_url": "https://www.youtube.com/watch?v=WDCxkg6QvT0",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\WDCxkg6QvT0.mp4"
+        },
+        {
+            "title": "Eviction",
+            "artist": "Like Pacific",
+            "album": "Like Pacific",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2735575f6beb9019008c09568d6",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 22,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 99,
+            "points": 40,
+            "youtube_url": "https://www.youtube.com/watch?v=MXrCu5LSlJw",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\MXrCu5LSlJw.mp4"
+        },
+        {
+            "title": "Obelisk",
+            "artist": "Northlane",
+            "album": "Node",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273581b922a0cf267bd7e3a7ffa",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 23,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                }
+            ],
+            "rank": 100,
+            "points": 30,
+            "youtube_url": "https://www.youtube.com/watch?v=iM_w1vIHWQY",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\iM_w1vIHWQY.mp4"
+        },
+        {
+            "title": "Cigarettes & Saints",
+            "artist": "The Wonder Years",
+            "album": "No Closer To Heaven",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273a1e24fe1cf41c57615319325",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 23,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 101,
+            "points": 30,
+            "youtube_url": "https://www.youtube.com/watch?v=3hbcBrsUuz4",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\3hbcBrsUuz4.mp4"
+        },
+        {
+            "title": "Collapse",
+            "artist": "Counterparts",
+            "album": "Tragedy Will Find Us",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273221a65df5cd3d54b7fe9be87",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 23,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 102,
+            "points": 30,
+            "youtube_url": "https://www.youtube.com/watch?v=c1jwfufdRYQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\c1jwfufdRYQ.mp4"
+        },
+        {
+            "title": "Fucked up Kids",
+            "artist": "Hit The Lights",
+            "album": "Summer Bones",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273d439874ca7655f51197efb28",
+            "voters": [
+                {
+                    "voterId": "66bc5fdde4719bbc94d8d600",
+                    "position": 23,
+                    "name": "Alex Smaniotto",
+                    "username": "Alex"
+                }
+            ],
+            "rank": 103,
+            "points": 30,
+            "youtube_url": "https://www.youtube.com/watch?v=98hyQWET-jY",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\98hyQWET-jY.mp4"
+        },
+        {
+            "title": "Recovery",
+            "artist": "Handguns",
+            "album": "Disenchanted",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273a8fe211a1d211a545fad566d",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 23,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 104,
+            "points": 30,
+            "youtube_url": "https://www.youtube.com/watch?v=3sdh9eMJsUc",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\3sdh9eMJsUc.mp4"
+        },
+        {
+            "title": "Sunshine",
+            "artist": "Sworn In",
+            "album": "The Lovers / The Devil",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273e655e89f129750f96c506443",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 24,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 105,
+            "points": 20,
+            "youtube_url": "https://www.youtube.com/watch?v=4tBf2gyYkQM",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\4tBf2gyYkQM.mp4"
+        },
+        {
+            "title": "Your Sweetness",
+            "artist": "Adventures",
+            "album": "Supersonic Home",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2733f3ac5c4c17b77de466eb42f",
+            "voters": [
+                {
+                    "voterId": "66cfb9144ae2add9f93b5d9f",
+                    "position": 24,
+                    "name": "Josh Willmott",
+                    "username": "JoshWillmott"
+                }
+            ],
+            "rank": 106,
+            "points": 20,
+            "youtube_url": "https://www.youtube.com/watch?v=vJn32o2l-Y8",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\vJn32o2l-Y8.mp4"
+        },
+        {
+            "title": "Suck My 401k",
+            "artist": "Jarrod Alonge",
+            "album": "Beating a Dead Horse: Deluxe Ultra-Limited Exclusive Undead Edition",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27370a67a5833b24e7d1666c822",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 24,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                }
+            ],
+            "rank": 107,
+            "points": 20,
+            "youtube_url": "https://www.youtube.com/watch?v=ckSl1teci3E",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\ckSl1teci3E.mp4"
+        },
+        {
+            "title": "Need 2",
+            "artist": "Pinegrove",
+            "album": "Everything So Far",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273251adf76d00dcb1356e25b10",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 24,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 108,
+            "points": 20,
+            "youtube_url": "https://www.youtube.com/watch?v=zE_rK8PX83Q",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\zE_rK8PX83Q.mp4"
+        },
+        {
+            "title": "Drifter",
+            "artist": "Capstan",
+            "album": "Seasonal Depression",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2733337c9dbadfa5e44a29f6dfb",
+            "voters": [
+                {
+                    "voterId": "66e34fa5255bf9de26fb58e5",
+                    "position": 24,
+                    "name": "Daine Carlon",
+                    "username": "DaineCarlon"
+                }
+            ],
+            "rank": 109,
+            "points": 20,
+            "youtube_url": "https://www.youtube.com/watch?v=MyyYkn_YIUQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\MyyYkn_YIUQ.mp4"
+        },
+        {
+            "title": "Misogyneric",
+            "artist": "Jarrod Alonge",
+            "album": "Beating a Dead Horse: Deluxe Ultra-Limited Exclusive Undead Edition",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b27370a67a5833b24e7d1666c822",
+            "voters": [
+                {
+                    "voterId": "6774b32e8b5ec35f0bff1061",
+                    "position": 25,
+                    "name": "Matthew Di Blasi",
+                    "username": "MatthewDiBlasi"
+                }
+            ],
+            "rank": 110,
+            "points": 10,
+            "youtube_url": "https://www.youtube.com/watch?v=MP0rXUgT1dI",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\MP0rXUgT1dI.mp4"
+        },
+        {
+            "title": "Stranger",
+            "artist": "Counterparts",
+            "album": "Tragedy Will Find Us",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b273221a65df5cd3d54b7fe9be87",
+            "voters": [
+                {
+                    "voterId": "663dd996d3f170de267e5d1c",
+                    "position": 25,
+                    "name": "Paul Curran",
+                    "username": "Paul"
+                }
+            ],
+            "rank": 111,
+            "points": 10,
+            "youtube_url": "https://www.youtube.com/watch?v=qTE5bLPkIgo",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\qTE5bLPkIgo.mp4"
+        },
+        {
+            "title": "Story",
+            "artist": "Chon",
+            "album": "Grow",
+            "album_artwork": "https://i.scdn.co/image/ab67616d0000b2738f3dcc4325361891491eb4d9",
+            "voters": [
+                {
+                    "voterId": "677f426f41018282253b3eb7",
+                    "position": 25,
+                    "name": "Tom Morgan",
+                    "username": "TomMorgan"
+                }
+            ],
+            "rank": 112,
+            "points": 10,
+            "youtube_url": "https://www.youtube.com/watch?v=EcGFm2Bf20c",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\EcGFm2Bf20c.mp4"
+        }
+    ]
+}
