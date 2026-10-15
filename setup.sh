@@ -28,6 +28,15 @@ else
     exit 1
 fi
 
+if command -v ffmpeg &> /dev/null; then
+    FFMPEG_PATH="$(command -v ffmpeg)"
+    echo "ffmpeg detected at: $FFMPEG_PATH"
+    echo "Configure your application source to use this ffmpeg executable path."
+else
+    echo "ffmpeg is not installed or is not on PATH. Install ffmpeg on the host, then add its executable path to your source configuration."
+    exit 1
+fi
+
 pip install -r requirements.txt
 python -m src.application.setup
 
