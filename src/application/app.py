@@ -3,7 +3,7 @@ import re
 import json
 import mimetypes
 from ..config.AppConfig import APP_PARAMS
-from flask import Flask, render_template, request, Response, send_from_directory, jsonify
+from flask import Flask, render_template, request, Response, send_from_directory, jsonify, url_for
 
 app = Flask(__name__)
 
@@ -44,7 +44,15 @@ def get_countdown_entries():
 @app.route('/')
 def index():
     entries = get_countdown_entries()
-    return render_template('index.html', entries=entries)
+    image_directory = os.path.join(app.static_folder, "images")
+    image_extensions = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
+    image_urls = [
+        url_for("static", filename=f"images/{filename}")
+        for filename in sorted(os.listdir(image_directory))
+        if os.path.isfile(os.path.join(image_directory, filename))
+        and os.path.splitext(filename)[1].lower() in image_extensions
+    ] if os.path.isdir(image_directory) else []
+    return render_template('index.html', entries=entries, image_urls=image_urls)
 
 @app.route('/video/<filename>')
 def stream_video(filename):

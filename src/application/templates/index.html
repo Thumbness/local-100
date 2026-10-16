@@ -15,6 +15,7 @@
             <div class="nav-btns">
                 <button id="prev-btn" class="next-btn" type="button">&#9664; Previous</button>
                 <button id="next-btn" class="next-btn" type="button">Next &#9654;</button>
+                <button id="the-bouys-btn" class="next-btn" type="button">The Bouys</button>
             </div>
         </header>
         <div class="video-area">
@@ -30,12 +31,14 @@
 
 <script>
     const entries = {{ entries | tojson }};
+    const imageUrls = {{ image_urls | tojson }};
     const COUNTDOWN_SECONDS = 10;
 
     const player = document.getElementById('player');
     const playlist = document.getElementById('playlist');
     const nextBtn = document.getElementById('next-btn');
     const prevBtn = document.getElementById('prev-btn');
+    const theBouysBtn = document.getElementById('the-bouys-btn');
     const overlay = document.getElementById('overlay');
     const overlayText = document.getElementById('overlay-text');
     const startBtn = document.getElementById('start-btn');
@@ -44,7 +47,8 @@
 
     let current = -1;         
     let revealed = -1;        
-    let countdownTimer = null; 
+    let countdownTimer = null;
+    let bouysTimer = null;
 
     function el(tag, className, text) {
         const node = document.createElement(tag);
@@ -129,9 +133,62 @@
         countdownTimer = setInterval(tick, 1000);
     }
 
+    function playPrev() {
+        if (current > 0) play(current - 1);
+    }
+    function showRandomImage() {
+        if (!imageUrls.length) return;
+
+        const randomImage = imageUrls[Math.floor(Math.random() * imageUrls.length)];
+        const img = document.createElement('img');
+        img.src = randomImage;
+        img.className = 'floating-image';
+        img.alt = '';
+        img.style.animation = 'none';
+        img.addEventListener('animationend', () => img.remove(), { once: true });
+        img.addEventListener('error', () => img.remove(), { once: true });
+        img.addEventListener('load', () => {
+            const { width, height } = img.getBoundingClientRect();
+            const horizontal = Math.random() < 0.5;
+            const forward = Math.random() < 0.5;
+            let startX;
+            let startY;
+            let endX;
+            let endY;
+
+            if (horizontal) {
+                startX = forward ? -width : window.innerWidth;
+                endX = forward ? window.innerWidth : -width;
+                startY = Math.random() * Math.max(0, window.innerHeight - height);
+                endY = Math.random() * Math.max(0, window.innerHeight - height);
+            } else {
+                startY = forward ? -height : window.innerHeight;
+                endY = forward ? window.innerHeight : -height;
+                startX = Math.random() * Math.max(0, window.innerWidth - width);
+                endX = Math.random() * Math.max(0, window.innerWidth - width);
+            }
+
+            img.style.left = `${startX}px`;
+            img.style.top = `${startY}px`;
+            img.style.setProperty('--travel-x', `${endX - startX}px`);
+            img.style.setProperty('--travel-y', `${endY - startY}px`);
+            requestAnimationFrame(() => { img.style.animation = ''; });
+        }, { once: true });
+        document.body.appendChild(img);
+        img.src = randomImage;
+    }
+
+    function theBouys() {
+        showRandomImage();
+    }
+
     nextBtn.addEventListener('click', playNext);
+    prevBtn.addEventListener('click', playPrev);
     player.addEventListener('ended', startCountdown);
     startBtn.addEventListener('click', () => play(0));
+    theBouysBtn.addEventListener('click', theBouys);
+
+    if (imageUrls.length) bouysTimer = setInterval(showRandomImage, 60000);
 
     if (entries.length) {
         nextBtn.hidden = true;
