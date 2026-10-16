@@ -2,8 +2,8 @@
 
 echo "Setting up the environment..."
 
-if ! command -v python3 &> /dev/null; then
-    echo "Python3 is not installed. Please install Python3 to proceed."
+if ! command -v python &> /dev/null; then
+    echo "Python is not installed. Please install Python3 to proceed."
     exit 1
 fi
 
@@ -38,6 +38,6 @@ else
 fi
 
 pip install -r requirements.txt
-python -m src.application.setup
+python -m src.cli.setup
 
 echo "Setup complete. Run the application using ./run.sh"

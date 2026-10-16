@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ year }} Library Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="page">
+    {% include "_home_button.html" %}
+    <header class="page-header">
+        <h1>Albums and singles released in {{ year }} by artists you listen to ({{ albums|length }})</h1>
+        <div class="page-subtle">
+            <a class="nav-link" href="{{ url_for('library.search') }}">New search</a>
+        </div>
+    </header>
+
+    {% if albums %}
+    <ul class="playlist library-list">
+        {% for artist, items in albums|groupby('artist') %}
+        <li>
+            <div class="song-title">{{ artist }} <span class="page-subtle">({{ items|length }})</span></div>
+            {% for m in items %}
+            <div class="row">
+                <span>{{ m.album }}</span>
+                <span>{{ m.type|capitalize }} · {{ m.release_date }}</span>
+            </div>
+            {% endfor %}
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+        <p class="page-subtle">No albums from {{ year }} found.</p>
+    {% endif %}
+</div>
+</body>
+</html>

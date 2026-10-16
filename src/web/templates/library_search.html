@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Your Library</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="page">
+    {% include "_home_button.html" %}
+    <h1>Search Your Library</h1>
+    <p class="page-subtle">Enter a year to see the albums and singles released that year by artists you listen to, based on your saved tracks, top tracks and playlists.</p>
+
+    <form class="year-form" method="post" action="{{ url_for('library.search') }}">
+        <input class="year-input" type="number" name="year" min="{{ min_year }}" max="{{ this_year }}" value="{{ this_year - 10 }}" required>
+        <button class="start-btn" type="submit">Search</button>
+    </form>
+
+    {% if error %}
+        <p class="notice">{{ error }}</p>
+    {% endif %}
+
+    <p class="page-subtle"><a class="nav-link" href="{{ url_for('library.logout') }}">Log out of Spotify</a></p>
+</div>
+</body>
+</html>

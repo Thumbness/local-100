@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="page">
+    {% include "_home_button.html" %}
+    <h1>{{ title }}</h1>
+    <p class="page-subtle">{{ subtitle }}</p>
+
+    <div class="progress-status"><span class="spinner" id="spinner"></span><span id="message">Starting</span></div>
+    <div class="progress-bar" id="bar-wrap" hidden><div class="progress-fill" id="bar"></div></div>
+    <p class="page-subtle" id="count"></p>
+
+    <div class="details" id="details" hidden></div>
+
+    {% if continue_url %}
+    <div class="oauth-box" id="oauth" hidden>
+        <p>Sign in to YouTube once so the videos can download:</p>
+        <ol>
+            <li>Open <a class="nav-link" id="oauth-url" href="#" target="_blank" rel="noopener"></a></li>
+            <li>Enter the code <span class="oauth-code" id="oauth-code"></span></li>
+            <li>Come back here and press the button below.</li>
+        </ol>
+        <button class="start-btn" id="oauth-done" type="button">I've completed sign-in</button>
+    </div>
+    {% endif %}
+
+    <p class="notice" id="error" hidden></p>
+    <p class="page-subtle"><a class="nav-link" href="{{ back_url }}">{{ back_label }}</a></p>
+</div>
+
+<script>
+    const pollUrl = {{ poll_url | tojson }};
+    const continueUrl = {{ (continue_url or None) | tojson }};
+    const message = document.getElementById("message");
+    const oauthBox = document.getElementById("oauth");
+    const oauthUrl = document.getElementById("oauth-url");
+    const oauthCode = document.getElementById("oauth-code");
+    const oauthDone = document.getElementById("oauth-done");
+    let oauthShown = false;
+    const detailsBox = document.getElementById("details");
+    let detailsShown = false;
+
+    // details = {sections: [{heading, rows: [[label, value], ...]}]}; sent once, so draw it once
+    function renderDetails(details) {
+        if (!details || detailsShown) return;
+        detailsShown = true;
+        details.sections.forEach(section => {
+            const card = document.createElement("div");
+            card.className = "detail-card";
+            const heading = document.createElement("h3");
+            heading.textContent = section.heading;
+            card.appendChild(heading);
+            section.rows.forEach(([label, value]) => {
+                const row = document.createElement("div");
+                row.className = "detail-row";
+                const name = document.createElement("span");
+                name.textContent = label;
+                const number = document.createElement("span");
+                number.textContent = value;
+                row.append(name, number);
+                card.appendChild(row);
+            });
+            detailsBox.appendChild(card);
+        });
+        detailsBox.hidden = false;
+    }
+
+    function updateOauth(info) {
+        if (!oauthBox) return;
+        if (info && !oauthShown) {
+            oauthUrl.href = info.url;
+            oauthUrl.textContent = info.url;
+            oauthCode.textContent = info.code;
+            oauthBox.hidden = false;
+            oauthShown = true;
+        } else if (!info && oauthShown) {
+            oauthBox.hidden = true;
+            oauthShown = false;
+        }
+    }
+
+    if (oauthDone) {
+        oauthDone.addEventListener("click", async () => {
+            oauthDone.disabled = true;
+            try {
+                await fetch(continueUrl, { method: "POST" });
+            } finally {
+                oauthDone.disabled = false;
+            }
+        });
+    }
+    const count = document.getElementById("count");
+    const barWrap = document.getElementById("bar-wrap");
+    const bar = document.getElementById("bar");
+    const errorBox = document.getElementById("error");
+    const spinner = document.getElementById("spinner");
+
+    function showError(text) {
+        spinner.hidden = true;
+        errorBox.textContent = text;
+        errorBox.hidden = false;
+    }
+
+    async function poll() {
+        try {
+            const res = await fetch(pollUrl, { cache: "no-store" });
+            if (!res.ok) {
+                showError("Could not load this job. Try again.");
+                return;
+            }
+            const data = await res.json();
+
+            if (data.status === "done") {
+                window.location.href = data.redirect;
+                return;
+            }
+            if (data.status === "error") {
+                showError(data.error || "Something went wrong.");
+                return;
+            }
+
+            message.textContent = data.message + "...";
+            updateOauth(data.prompt);
+            renderDetails(data.details);
+            if (data.total) {
+                barWrap.hidden = false;
+                bar.style.width = Math.round((data.done / data.total) * 100) + "%";
+                count.textContent = `${data.done} of ${data.total}`;
+            }
+        } catch (err) {
+            // Network blip: keep polling
+        }
+        setTimeout(poll, 1000);
+    }
+
+    poll();
+</script>
+</body>
+</html>

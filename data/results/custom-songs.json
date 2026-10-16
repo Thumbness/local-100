@@ -1,0 +1,130 @@
+[
+    {
+        "id": "king giz-gamma knife",
+        "name": "Gamma Knife",
+        "album": null,
+        "artists": [
+            {
+                "id": "king giz",
+                "name": "King Giz",
+                "genres": [],
+                "imageUrl": "",
+                "uri": "",
+                "followers": 0
+            }
+        ],
+        "durationMs": 0,
+        "href": "",
+        "previewUrl": "",
+        "releaseDate": "",
+        "trackNumber": 0,
+        "type": "custom",
+        "uri": "",
+        "timestampAddedToShortlist": "2026-10-21T12:13:56.643Z",
+        "youtubeUrl": "www.youtube.com/watch?v=nC7ii3Ir-no",
+        "songAddedBy": "663dd996d3f170de267e5d1c",
+        "songRank": 3,
+        "points": 230,
+        "voters": [
+            {
+                "voterId": "663dd996d3f170de267e5d1c",
+                "position": 3,
+                "name": "Paul Curran",
+                "username": "Paul"
+            }
+        ]
+    },
+    {
+        "id": "0COqiPhxzoWICwFCS4eZcp",
+        "name": "Bring Me To Life",
+        "album": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5nGIFgo0shDenQYSE0Sn7c"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/5nGIFgo0shDenQYSE0Sn7c",
+                    "id": "5nGIFgo0shDenQYSE0Sn7c",
+                    "name": "Evanescence",
+                    "type": "artist",
+                    "uri": "spotify:artist:5nGIFgo0shDenQYSE0Sn7c"
+                }
+            ],
+            "href": "https://api.spotify.com/v1/albums/02w1xMzzdF2OJxTeh1basm",
+            "id": "02w1xMzzdF2OJxTeh1basm",
+            "name": "Fallen",
+            "releaseDate": "2003-03-04",
+            "releaseDatePrecision": "day",
+            "totalTracks": 12,
+            "uri": "spotify:album:02w1xMzzdF2OJxTeh1basm",
+            "imageUrl": "https://i.scdn.co/image/ab67616d0000b27325f49ab23f0ec6332efef432"
+        },
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/5nGIFgo0shDenQYSE0Sn7c"
+                },
+                "href": "https://api.spotify.com/v1/artists/5nGIFgo0shDenQYSE0Sn7c",
+                "id": "5nGIFgo0shDenQYSE0Sn7c",
+                "name": "Evanescence",
+                "type": "artist",
+                "uri": "spotify:artist:5nGIFgo0shDenQYSE0Sn7c"
+            }
+        ],
+        "durationMs": 235893,
+        "href": "https://api.spotify.com/v1/tracks/0COqiPhxzoWICwFCS4eZcp",
+        "previewUrl": null,
+        "releaseDate": "2003-03-04",
+        "trackNumber": 2,
+        "type": "track",
+        "uri": "spotify:track:0COqiPhxzoWICwFCS4eZcp",
+        "timestampAddedToShortlist": "2026-10-21T11:57:53.760Z",
+        "youtubeUrl": "www.youtube.com/watch?v=3YxaaGgTQYM",
+        "songAddedBy": "663dd996d3f170de267e5d1c",
+        "songRank": 2,
+        "points": 240,
+        "voters": [
+            {
+                "voterId": "663dd996d3f170de267e5d1c",
+                "position": 2,
+                "name": "Paul Curran",
+                "username": "Paul"
+            }
+        ]
+    },
+    {
+        "id": "king giz-people-vultures",
+        "name": "People-vultures",
+        "album": null,
+        "artists": [
+            {
+                "id": "king giz",
+                "name": "King Giz",
+                "genres": [],
+                "imageUrl": "",
+                "uri": "",
+                "followers": 0
+            }
+        ],
+        "durationMs": 0,
+        "href": "",
+        "previewUrl": "",
+        "releaseDate": "",
+        "trackNumber": 0,
+        "type": "custom",
+        "uri": "",
+        "timestampAddedToShortlist": "2026-10-21T12:20:58.585Z",
+        "youtubeUrl": "www.youtube.com/watch?v=6f78_Tf4Tdk",
+        "songAddedBy": "663dd996d3f170de267e5d1c",
+        "songRank": 1,
+        "points": 250,
+        "voters": [
+            {
+                "voterId": "663dd996d3f170de267e5d1c",
+                "position": 1,
+                "name": "Paul Curran",
+                "username": "Paul"
+            }
+        ]
+    }
+]

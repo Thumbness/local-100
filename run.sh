@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python -m src.application.app
+python -m src.web.app

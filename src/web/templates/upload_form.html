@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Countdown File</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="page">
+    {% include "_home_button.html" %}
+    <h1>Upload Countdown File</h1>
+    <p class="page-subtle">Upload the countdown JSON. Its videos will be downloaded to data/videos. When that finishes, go home and press Start Countdown.</p>
+
+    <form class="year-form" method="post" enctype="multipart/form-data" action="{{ url_for('upload.upload_page') }}">
+        <input class="file-input" type="file" name="file" accept=".json,application/json" required>
+        <button class="start-btn" type="submit">Upload and download</button>
+    </form>
+
+    {% if error %}
+        <p class="notice">{{ error }}</p>
+    {% endif %}
+
+</div>
+</body>
+</html>

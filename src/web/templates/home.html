@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hardest 100</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="landing">
+    <h1>Hardest 100</h1>
+    {% if error %}
+        <p class="notice">{{ error }}</p>
+    {% endif %}
+    {% if notice %}
+        <p class="notice success">{{ notice }}</p>
+    {% endif %}
+    <div class="landing-buttons">
+        <a class="start-btn" href="{{ url_for('library.search') }}">Search Your Library</a>
+        <a class="start-btn" href="{{ url_for('upload.upload_page') }}">Upload Countdown File</a>
+        <a class="start-btn" href="{{ url_for('countdown') }}">Start Countdown</a>
+    </div>
+</div>
+</body>
+</html>
