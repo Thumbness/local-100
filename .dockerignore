@@ -1,0 +1,10 @@
+# Keep secrets and bulky local state out of the build (the image only ever copies src/)
+.env
+.env.*
+.git
+.vscode
+venv
+data
+logs
+**/__pycache__
+**/*.pyc

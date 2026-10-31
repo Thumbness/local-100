@@ -1,0 +1,25 @@
+# Runs the app in Docker on this machine or on a home server.
+#
+#   docker compose up -d --build     start it (and again after every `git pull` to update)
+#   docker compose logs -f app       watch it
+#   docker compose down              stop it
+#
+# First run: create an admin user, then open http://127.0.0.1:8888
+#   docker compose run --rm app python -m src.cli.users add YOUR-NAME --admin
+
+name: hardest100
+
+services:
+  app:
+    build: .
+    image: hardest100:local
+    restart: unless-stopped
+    ports:
+      # Published on this machine only. To share it, put a reverse proxy or tunnel in front (see README),
+      # or change this to "8888:8888" to open it to your whole network.
+      - "127.0.0.1:8888:8888"
+    env_file:
+      - path: .env    # CLIENT_ID, CLIENT_SECRET, SECRET_KEY, REDIRECT_URI
+        required: false
+    volumes:
+      - ./data:/app/data   # countdown results, videos and the users file live on the host

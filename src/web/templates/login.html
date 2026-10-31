@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign in - Hardest 100</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="landing">
+    <h1>Hardest 100</h1>
+
+    {% if not has_users %}
+        <p class="notice">No users exist yet. On the server, run: python -m src.cli.users add YOUR-NAME --admin</p>
+    {% endif %}
+    {% if error %}
+        <p class="notice">{{ error }}</p>
+    {% endif %}
+
+    <form class="login-form" method="post" action="{{ url_for('auth.login') }}">
+        {% if next_url %}<input type="hidden" name="next" value="{{ next_url }}">{% endif %}
+        <input class="text-input" type="text" name="username" placeholder="Username" autocomplete="username" autofocus required>
+        <input class="text-input" type="password" name="password" placeholder="Password" autocomplete="current-password" required>
+        <button class="start-btn" type="submit">Sign in</button>
+    </form>
+</div>
+</body>
+</html>

@@ -1,3 +1,4 @@
+from dataclasses import dataclass
 from typing import Callable, Protocol
 
 from ..domain.countdown.entry import CountdownEntry
@@ -46,6 +47,26 @@ class CountdownStore(Protocol):
 
 class VideoDownloader(Protocol):
     def download(self, url: str, filename: str) -> None: ...
+
+
+@dataclass(frozen=True)
+class StoredUser:
+    username: str
+    password_hash: str
+    is_admin: bool
+
+
+class UserDirectory(Protocol):
+    def find(self, username: str) -> StoredUser | None: ...
+    def any_users(self) -> bool: ...
+
+
+class PasswordHasher(Protocol):
+    def hash(self, password: str) -> str: ...
+    def verify(self, password_hash: str, password: str) -> bool: ...
+    def burn(self, password: str) -> None:
+        """Do the same work as verify() against a dummy hash, so unknown users take as long as known ones."""
+        ...
 
 
 class RawCountdownFormat(Protocol):

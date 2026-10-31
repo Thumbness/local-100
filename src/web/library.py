@@ -134,5 +134,7 @@ def job_results(job_id):
 
 @library_bp.route("/logout")
 def logout():
-    session.clear()
+    # Only forget Spotify: the app sign-in lives in the same session and must survive this
+    for key in ("token_info", "oauth_state", "jobs"):
+        session.pop(key, None)
     return redirect(url_for("home"))

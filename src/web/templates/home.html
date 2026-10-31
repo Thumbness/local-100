@@ -15,9 +15,17 @@
     {% endif %}
     <div class="landing-buttons">
         <a class="start-btn" href="{{ url_for('library.search') }}">Search Your Library</a>
+        {% if current_user and current_user.is_admin %}
         <a class="start-btn" href="{{ url_for('upload.upload_page') }}">Upload Countdown File</a>
+        {% endif %}
         <a class="start-btn" href="{{ url_for('countdown') }}">Start Countdown</a>
     </div>
+    {% if current_user %}
+    <form class="signed-in" method="post" action="{{ url_for('auth.logout') }}">
+        <span class="page-subtle">Signed in as {{ current_user.username }}</span>
+        <button class="next-btn" type="submit">Sign out</button>
+    </form>
+    {% endif %}
 </div>
 </body>
 </html>

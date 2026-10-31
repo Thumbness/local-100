@@ -2,23 +2,47 @@ import mimetypes
 import os
 import re
 import secrets
+from datetime import timedelta
 
 from flask import Flask, Response, redirect, render_template, request, send_from_directory, url_for
 
 from urllib.parse import urlparse
 
+from werkzeug.middleware.proxy_fix import ProxyFix
+
 from ..composition import countdown_service
 from ..infrastructure.spotify.auth import configured_redirect_uri
+from .auth import install_auth
 from .library import callback as spotify_callback, library_bp
 from .presenters import countdown_view
 from .upload import upload_bp
 
 app = Flask(__name__)
 app.secret_key = os.getenv("SECRET_KEY") or secrets.token_hex(32)
+app.config.update(
+    SESSION_COOKIE_HTTPONLY=True,
+    SESSION_COOKIE_SAMESITE="Lax",  # the browser won't send the login cookie on cross-site POSTs (CSRF)
+    SESSION_COOKIE_SECURE=os.getenv("SESSION_COOKIE_SECURE", "").lower() in ("1", "true", "yes"),
+    PERMANENT_SESSION_LIFETIME=timedelta(days=7),
+)
+
+# Behind a reverse proxy (Caddy, a load balancer), trust its forwarded address so the login lockout sees the
+# real client. Set TRUSTED_PROXY_HOPS to the number of proxies in front of the app; leave it 0 otherwise.
+_proxy_hops = int(os.getenv("TRUSTED_PROXY_HOPS", "0") or 0)
+if _proxy_hops:
+    app.wsgi_app = ProxyFix(app.wsgi_app, x_for=_proxy_hops, x_proto=_proxy_hops, x_host=_proxy_hops)
+
+install_auth(app)  # everything needs a login except the login page, /healthz and static files
 app.register_blueprint(library_bp)
 app.register_blueprint(upload_bp)
 # Also answer at /callback, so a redirect URI like http://127.0.0.1:8888/callback works
 app.add_url_rule('/callback', endpoint='oauth_callback', view_func=spotify_callback)
+
+
+@app.route('/healthz')
+def healthz():
+    """For load balancer and container health checks. Public, and touches nothing."""
+    return 'ok'
 
 
 @app.route('/')
