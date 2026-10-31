@@ -18,6 +18,12 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
+# pytubefix saves the YouTube sign-in token inside its own package folder. Let the app user write there
+# (the token is lost when the image is rebuilt, so sign in to YouTube again after an update)
+RUN cache_dir="$(python -c 'import os, pytubefix; print(os.path.join(os.path.dirname(pytubefix.__file__), "__cache__"))')" \
+    && mkdir -p "$cache_dir" \
+    && chown app:app "$cache_dir"
+
 COPY src ./src
 
 # Writable folders for logs and data (data is mounted from the host at runtime)
