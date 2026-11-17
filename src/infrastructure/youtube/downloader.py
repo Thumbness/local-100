@@ -14,11 +14,28 @@ RETRY_DELAYS = [30, 60, 120]
 PAUSE_BETWEEN_VIDEOS = 3
 REQUEST_TIMEOUT = 30  # seconds; a stalled YouTube response fails instead of hanging
 
-# Prefer mp4 video + m4a audio so ffmpeg can merge by copying, then fall back to whatever is best
-VIDEO_FORMAT = "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]/bv*+ba/b"
+# mp4 video (widest playback support) with the highest-bitrate audio stream of any codec, merged without re-encoding
+VIDEO_FORMAT = "bv*[ext=mp4]+ba/b[ext=mp4]/bv*+ba/b"
+# Rank audio by bitrate first; yt-dlp's default prefers Opus over a higher-bitrate AAC stream
+FORMAT_SORT = ["abr"]
 
 # Errors that retrying will not fix
 PERMANENT_ERRORS = ("confirm your age", "private video", "video unavailable", "has been removed")
+
+
+def _bundled_node_path():
+    """Node from the nodejs-wheel-binaries package. yt-dlp needs Node 22+, which distro packages often lack.
+
+    Returns None when the package is missing, so yt-dlp falls back to `node` on PATH."""
+    try:
+        from nodejs_wheel.executable import ROOT_DIR
+    except ImportError:
+        return None
+    for relative in ("bin/node", "node.exe", "node"):
+        candidate = os.path.join(ROOT_DIR, relative)
+        if os.path.isfile(candidate):
+            return candidate
+    return None
 
 
 class YouTubeVideoDownloader:
@@ -59,10 +76,11 @@ class YouTubeVideoDownloader:
         with tempfile.TemporaryDirectory() as tmp:
             options = {
                 "format": VIDEO_FORMAT,
+                "format_sort": FORMAT_SORT,
                 "merge_output_format": "mp4",
                 "outtmpl": os.path.join(tmp, "video.%(ext)s"),
                 "socket_timeout": REQUEST_TIMEOUT,
-                "js_runtimes": {"node": {}},  # yt-dlp only enables deno by default
+                "js_runtimes": {"node": {"path": _bundled_node_path()}},  # yt-dlp only enables deno by default
                 "quiet": True,
                 "no_warnings": True,
                 "noprogress": True,

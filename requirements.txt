@@ -1,4 +1,5 @@
 yt-dlp[default]
+nodejs-wheel-binaries
 loguru
 flask
 requests

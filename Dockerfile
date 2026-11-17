@@ -7,9 +7,9 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=1
 
 # ffmpeg merges the audio and video streams when countdown videos are downloaded.
-# nodejs is the JavaScript runtime yt-dlp needs to solve YouTube's challenges; without it formats are missing
+# (yt-dlp's JavaScript runtime, Node 22+, comes from the nodejs-wheel-binaries pip package, not apt)
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends ffmpeg nodejs \
+    && apt-get install -y --no-install-recommends ffmpeg \
     && rm -rf /var/lib/apt/lists/*
 
 RUN useradd --create-home --uid 1000 app
