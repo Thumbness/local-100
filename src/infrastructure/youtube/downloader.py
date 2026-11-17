@@ -1,8 +1,10 @@
 import os
 import shutil
+import socket
 import subprocess
 import tempfile
 import time
+from contextlib import contextmanager
 
 from pytubefix import YouTube
 from pytubefix.cli import on_progress
@@ -14,7 +16,20 @@ logger = LogConfig.get_logger()
 RETRY_DELAYS = [30, 60, 120]
 PAUSE_BETWEEN_VIDEOS = 3
 # (pytubefix client, use_oauth) in fallback order; TV needs OAuth so it goes last
-CLIENTS = [("VISION_OS", False), ("ANDROID_VR", False), ("MWEB", False), ("TV", True)]
+REQUEST_TIMEOUT = 30  # seconds; pytubefix sets none, so a stalled YouTube response would hang forever
+
+
+@contextmanager
+def _socket_timeout(seconds):
+    previous = socket.getdefaulttimeout()
+    socket.setdefaulttimeout(seconds)
+    try:
+        yield
+    finally:
+        socket.setdefaulttimeout(previous)
+
+
+CLIENTS = [("VISION_OS", False), ("ANDROID_VR", False), ("TV", True)]
 
 
 class YouTubeVideoDownloader:
@@ -58,15 +73,16 @@ class YouTubeVideoDownloader:
             # OAuth token is cached so login is only prompted once, and only if a client needs it
             extra = {"oauth_verifier": self._oauth_verifier} if use_oauth and self._oauth_verifier else {}
             try:
-                yt = YouTube(
-                    url,
-                    client=client,
-                    on_progress_callback=on_progress,
-                    use_oauth=use_oauth,
-                    allow_oauth_cache=True,
-                    **extra,
-                )
-                logger.debug(f"Client {client}: title={yt.title!r}, length={yt.length}s")
+                with _socket_timeout(REQUEST_TIMEOUT):
+                    yt = YouTube(
+                        url,
+                        client=client,
+                        on_progress_callback=on_progress,
+                        use_oauth=use_oauth,
+                        allow_oauth_cache=True,
+                        **extra,
+                    )
+                    logger.debug(f"Client {client}: title={yt.title!r}, length={yt.length}s")
                 return yt
             except Exception as e:
                 logger.warning(f"Client {client} failed for {url}: {e!r}")
