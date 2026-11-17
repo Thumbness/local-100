@@ -1,46 +1,2254 @@
 {
     "results": [
         {
-            "title": "Gamma Knife",
-            "artist": "King Giz",
+            "title": "Stars",
+            "artist": "Secret Space",
+            "voters": [
+                {
+                    "name": "Josh Willmott",
+                    "position": 25
+                }
+            ],
+            "rank": 145,
+            "points": 10,
+            "youtube_url": "https://www.youtube.com/watch?v=neJspmIfWno",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\neJspmIfWno.mp4"
+        },
+        {
+            "title": "Direction",
+            "artist": "Mat Kerekes",
+            "voters": [
+                {
+                    "name": "Tom Morgan",
+                    "position": 25
+                }
+            ],
+            "rank": 144,
+            "points": 10,
+            "youtube_url": "https://www.youtube.com/watch?v=cMIlK4KYd60",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\cMIlK4KYd60.mp4"
+        },
+        {
+            "title": "Party Machine",
+            "artist": "The Bennies",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 25
+                }
+            ],
+            "rank": 143,
+            "points": 10,
+            "youtube_url": "https://www.youtube.com/watch?v=DrV5XuDDLbI",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\DrV5XuDDLbI.mp4"
+        },
+        {
+            "title": "Eiley",
+            "artist": "Too Close To Touch",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 25
+                }
+            ],
+            "rank": 142,
+            "points": 10,
+            "youtube_url": "https://www.youtube.com/watch?v=f9hFENRJsNY",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\f9hFENRJsNY.mp4"
+        },
+        {
+            "title": "Postman Pat Aint Got Shit on Me",
+            "artist": "Error37",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 25
+                }
+            ],
+            "rank": 141,
+            "points": 10,
+            "youtube_url": "https://www.youtube.com/watch?v=as_v5VEfr7I",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\as_v5VEfr7I.mp4"
+        },
+        {
+            "title": "Trees in the Winter",
+            "artist": "Between You & Me",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 25
+                }
+            ],
+            "rank": 140,
+            "points": 10,
+            "youtube_url": "https://www.youtube.com/watch?v=KLxVNgDRSd4",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\KLxVNgDRSd4.mp4"
+        },
+        {
+            "title": "7",
+            "artist": "Catfish and the Bottlemen",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 24
+                }
+            ],
+            "rank": 139,
+            "points": 20,
+            "youtube_url": "https://www.youtube.com/watch?v=paT4oLj8VCY",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\paT4oLj8VCY.mp4"
+        },
+        {
+            "title": "Come Home",
+            "artist": "Can't Swim",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 24
+                }
+            ],
+            "rank": 138,
+            "points": 20,
+            "youtube_url": "https://www.youtube.com/watch?v=RBy48mVyq_Q",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\RBy48mVyq_Q.mp4"
+        },
+        {
+            "title": "Xxcactaurxcorexx",
+            "artist": "Error37",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 24
+                }
+            ],
+            "rank": 137,
+            "points": 20,
+            "youtube_url": "https://www.youtube.com/watch?v=W4C2XksjJsA",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\W4C2XksjJsA.mp4"
+        },
+        {
+            "title": "Good Terms",
+            "artist": "Abandoned By Bears",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 24
+                }
+            ],
+            "rank": 136,
+            "points": 20,
+            "youtube_url": "https://www.youtube.com/watch?v=XfSWZBDlsZY",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\XfSWZBDlsZY.mp4"
+        },
+        {
+            "title": "OMNI",
+            "artist": "Jason Richardson",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 23
+                }
+            ],
+            "rank": 135,
+            "points": 30,
+            "youtube_url": "https://www.youtube.com/watch?v=69zFCSToXzE",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\69zFCSToXzE.mp4"
+        },
+        {
+            "title": "Forget Me Not",
+            "artist": "Boston Manor",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 23
+                }
+            ],
+            "rank": 134,
+            "points": 30,
+            "youtube_url": "https://www.youtube.com/watch?v=6kSc4KebuGA",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\6kSc4KebuGA.mp4"
+        },
+        {
+            "title": "Richmond",
+            "artist": "Like Pacific",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 23
+                }
+            ],
+            "rank": 133,
+            "points": 30,
+            "youtube_url": "https://www.youtube.com/watch?v=C1UapJt5hVE",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\C1UapJt5hVE.mp4"
+        },
+        {
+            "title": "Not My Friends",
+            "artist": "Tired Lion",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 23
+                }
+            ],
+            "rank": 132,
+            "points": 30,
+            "youtube_url": "https://www.youtube.com/watch?v=PNKzInyG9n4",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\PNKzInyG9n4.mp4"
+        },
+        {
+            "title": "It Remembers",
+            "artist": "Every Time I Die",
+            "voters": [
+                {
+                    "name": "Paul Curran",
+                    "position": 23
+                }
+            ],
+            "rank": 131,
+            "points": 30,
+            "youtube_url": "https://www.youtube.com/watch?v=FrogoSmiAqU",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\FrogoSmiAqU.mp4"
+        },
+        {
+            "title": "Marigold",
+            "artist": "Periphery",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 22
+                }
+            ],
+            "rank": 130,
+            "points": 40,
+            "youtube_url": "https://www.youtube.com/watch?v=-aVUUS7TZLk",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\-aVUUS7TZLk.mp4"
+        },
+        {
+            "title": "COMA",
+            "artist": "Issues",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 22
+                }
+            ],
+            "rank": 129,
+            "points": 40,
+            "youtube_url": "https://www.youtube.com/watch?v=Fgbba5w9KVY",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\Fgbba5w9KVY.mp4"
+        },
+        {
+            "title": "The Realest",
+            "artist": "Issues",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 22
+                }
+            ],
+            "rank": 128,
+            "points": 40,
+            "youtube_url": "https://www.youtube.com/watch?v=bSFHfXqhL6w",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\bSFHfXqhL6w.mp4"
+        },
+        {
+            "title": "Phantom Fear",
+            "artist": "Architects",
+            "voters": [
+                {
+                    "name": "Paul Curran",
+                    "position": 22
+                }
+            ],
+            "rank": 127,
+            "points": 40,
+            "youtube_url": "https://www.youtube.com/watch?v=sMiIw078zGE",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\sMiIw078zGE.mp4"
+        },
+        {
+            "title": "Same Minds",
+            "artist": "Horror My Friend",
+            "voters": [
+                {
+                    "name": "Josh Willmott",
+                    "position": 22
+                }
+            ],
+            "rank": 126,
+            "points": 40,
+            "youtube_url": "https://www.youtube.com/watch?v=SyadbVt509s",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\SyadbVt509s.mp4"
+        },
+        {
+            "title": "Born in Dissonance",
+            "artist": "Meshuggah",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 21
+                }
+            ],
+            "rank": 125,
+            "points": 50,
+            "youtube_url": "https://www.youtube.com/watch?v=xtO3VCu5wv4",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\xtO3VCu5wv4.mp4"
+        },
+        {
+            "title": "The Clubs / The People's Attention",
+            "artist": "Mat Kerekes",
+            "voters": [
+                {
+                    "name": "Josh Willmott",
+                    "position": 21
+                }
+            ],
+            "rank": 124,
+            "points": 50,
+            "youtube_url": "https://www.youtube.com/watch?v=zVzac32kx3M",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\zVzac32kx3M.mp4"
+        },
+        {
+            "title": "Pretty in Porcelain",
+            "artist": "Famous Last Words",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 21
+                }
+            ],
+            "rank": 123,
+            "points": 50,
+            "youtube_url": "https://www.youtube.com/watch?v=7pbjf2wo5yU",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\7pbjf2wo5yU.mp4"
+        },
+        {
+            "title": "Solace; in Soil",
+            "artist": "Loathe",
+            "voters": [
+                {
+                    "name": "Tom Morgan",
+                    "position": 21
+                }
+            ],
+            "rank": 122,
+            "points": 50,
+            "youtube_url": "https://www.youtube.com/watch?v=ytSp0qZyTzQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\ytSp0qZyTzQ.mp4"
+        },
+        {
+            "title": "Distant",
+            "artist": "Like Pacific",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 21
+                }
+            ],
+            "rank": 121,
+            "points": 50,
+            "youtube_url": "https://www.youtube.com/watch?v=zRg6Uo15wXw",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\zRg6Uo15wXw.mp4"
+        },
+        {
+            "title": "Overwhelmed / Ill Prepared",
+            "artist": "Luca Brasi",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 21
+                }
+            ],
+            "rank": 120,
+            "points": 50,
+            "youtube_url": "https://www.youtube.com/watch?v=0u-v6scpBVs",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\0u-v6scpBVs.mp4"
+        },
+        {
+            "title": "Set Course for Andromeda!!!",
+            "artist": "Sithu Aye",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 20
+                }
+            ],
+            "rank": 119,
+            "points": 60,
+            "youtube_url": "https://www.youtube.com/watch?v=tUnVIdaTgbU",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\tUnVIdaTgbU.mp4"
+        },
+        {
+            "title": "91367",
+            "artist": "Volumes",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 20
+                }
+            ],
+            "rank": 118,
+            "points": 60,
+            "youtube_url": "https://www.youtube.com/watch?v=g6UgBSvwluU",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\g6UgBSvwluU.mp4"
+        },
+        {
+            "title": "Wash Away",
+            "artist": "Ambleside",
+            "voters": [
+                {
+                    "name": "Josh Willmott",
+                    "position": 20
+                }
+            ],
+            "rank": 117,
+            "points": 60,
+            "youtube_url": "https://www.youtube.com/watch?v=sSU-DgYJbXY",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\sSU-DgYJbXY.mp4"
+        },
+        {
+            "title": "Slow Me Down",
+            "artist": "Issues",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 20
+                }
+            ],
+            "rank": 116,
+            "points": 60,
+            "youtube_url": "https://www.youtube.com/watch?v=c5MIP3fmKjk",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\c5MIP3fmKjk.mp4"
+        },
+        {
+            "title": "Young Robot",
+            "artist": "Dance Gavin Dance",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 20
+                }
+            ],
+            "rank": 115,
+            "points": 60,
+            "youtube_url": "https://www.youtube.com/watch?v=Vl2Rmw5hsao",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\Vl2Rmw5hsao.mp4"
+        },
+        {
+            "title": "Hell",
+            "artist": "Slaughter to Prevail",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 19
+                }
+            ],
+            "rank": 114,
+            "points": 70,
+            "youtube_url": "https://www.youtube.com/watch?v=ALK884T5u2o",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\ALK884T5u2o.mp4"
+        },
+        {
+            "title": "Across the Bed",
+            "artist": "Volumes",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 19
+                }
+            ],
+            "rank": 113,
+            "points": 70,
+            "youtube_url": "https://www.youtube.com/watch?v=R_eCwYLdH-c",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\R_eCwYLdH-c.mp4"
+        },
+        {
+            "title": "Xenon",
+            "artist": "Deftones",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 19
+                }
+            ],
+            "rank": 112,
+            "points": 70,
+            "youtube_url": "https://www.youtube.com/watch?v=m-loCuBm5q0",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\m-loCuBm5q0.mp4"
+        },
+        {
+            "title": "True Love",
+            "artist": "Cane Hill",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 19
+                }
+            ],
+            "rank": 111,
+            "points": 70,
+            "youtube_url": "https://www.youtube.com/watch?v=rW3WuLWlfnE",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\rW3WuLWlfnE.mp4"
+        },
+        {
+            "title": "Room Without a View",
+            "artist": "Harbours",
+            "voters": [
+                {
+                    "name": "Tom Morgan",
+                    "position": 19
+                }
+            ],
+            "rank": 110,
+            "points": 70,
+            "youtube_url": "https://www.youtube.com/watch?v=JBEARyrR_-Q",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\JBEARyrR_-Q.mp4"
+        },
+        {
+            "title": "The Coin Has A Say",
+            "artist": "Every Time I Die",
+            "voters": [
+                {
+                    "name": "Josh Willmott",
+                    "position": 19
+                }
+            ],
+            "rank": 109,
+            "points": 70,
+            "youtube_url": "https://www.youtube.com/watch?v=kqQo2RQMWEM",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\kqQo2RQMWEM.mp4"
+        },
+        {
+            "title": "Light",
+            "artist": "Polyphia",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 18
+                }
+            ],
+            "rank": 108,
+            "points": 80,
+            "youtube_url": "https://www.youtube.com/watch?v=_x5_9SD0SqM",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\_x5_9SD0SqM.mp4"
+        },
+        {
+            "title": "Doomed User",
+            "artist": "Deftones",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 18
+                }
+            ],
+            "rank": 107,
+            "points": 80,
+            "youtube_url": "https://www.youtube.com/watch?v=IxE6kaNuNB8",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\IxE6kaNuNB8.mp4"
+        },
+        {
+            "title": "//",
+            "artist": "Void Of Vision",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 18
+                }
+            ],
+            "rank": 106,
+            "points": 80,
+            "youtube_url": "https://www.youtube.com/watch?v=TsWsry9viVs",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\TsWsry9viVs.mp4"
+        },
+        {
+            "title": "I Was Honest, You Were Lying",
+            "artist": "In Her Own Words",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 18
+                }
+            ],
+            "rank": 105,
+            "points": 80,
+            "youtube_url": "https://www.youtube.com/watch?v=woGtr5-z4hE",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\woGtr5-z4hE.mp4"
+        },
+        {
+            "title": "Pissed Off",
+            "artist": "Fit For A King",
+            "voters": [
+                {
+                    "name": "Paul Curran",
+                    "position": 18
+                }
+            ],
+            "rank": 104,
+            "points": 80,
+            "youtube_url": "https://www.youtube.com/watch?v=Y9VcRJRwdIc",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\Y9VcRJRwdIc.mp4"
+        },
+        {
+            "title": "Adult Contempt",
+            "artist": "Into It. Over It.",
+            "voters": [
+                {
+                    "name": "Josh Willmott",
+                    "position": 18
+                }
+            ],
+            "rank": 103,
+            "points": 80,
+            "youtube_url": "https://www.youtube.com/watch?v=xJ_cMuEME5A",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\xJ_cMuEME5A.mp4"
+        },
+        {
+            "title": "Aeroplane",
+            "artist": "Luca Brasi",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 22
+                },
+                {
+                    "name": "sammy_morgs",
+                    "position": 22
+                }
+            ],
+            "rank": 102,
+            "points": 80,
+            "youtube_url": "https://www.youtube.com/watch?v=eWm8LZrWWTM",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\eWm8LZrWWTM.mp4"
+        },
+        {
+            "title": "Palette",
+            "artist": "Grayscale",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 17
+                }
+            ],
+            "rank": 101,
+            "points": 90,
+            "youtube_url": "https://www.youtube.com/watch?v=SFKjZ0MZdxg",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\SFKjZ0MZdxg.mp4"
+        },
+        {
+            "title": "Near",
+            "artist": "Bilmuri",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 17
+                }
+            ],
+            "rank": 100,
+            "points": 90,
+            "youtube_url": "https://www.youtube.com/watch?v=LUgJfRjIXUA",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\LUgJfRjIXUA.mp4"
+        },
+        {
+            "title": "The Silver String",
+            "artist": "Saosin",
+            "voters": [
+                {
+                    "name": "Tom Morgan",
+                    "position": 17
+                }
+            ],
+            "rank": 99,
+            "points": 90,
+            "youtube_url": "https://www.youtube.com/watch?v=hc449MVJep0",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\hc449MVJep0.mp4"
+        },
+        {
+            "title": "Anything Near Conviction",
+            "artist": "Luca Brasi",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 20
+                },
+                {
+                    "name": "Josh Willmott",
+                    "position": 23
+                }
+            ],
+            "rank": 98,
+            "points": 90,
+            "youtube_url": "https://www.youtube.com/watch?v=TCfaMZWdAs8",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\TCfaMZWdAs8.mp4"
+        },
+        {
+            "title": "Happy in Your Head",
+            "artist": "Ceres",
+            "voters": [
+                {
+                    "name": "Josh Willmott",
+                    "position": 17
+                }
+            ],
+            "rank": 97,
+            "points": 90,
+            "youtube_url": "https://www.youtube.com/watch?v=MXG67dr7_Ig",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\MXG67dr7_Ig.mp4"
+        },
+        {
+            "title": "Soundcheck",
+            "artist": "Catfish and the Bottlemen",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 16
+                }
+            ],
+            "rank": 96,
+            "points": 100,
+            "youtube_url": "https://www.youtube.com/watch?v=9mLD8FL28Nk",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\9mLD8FL28Nk.mp4"
+        },
+        {
+            "title": "BFG Division - Doom",
+            "artist": "Alex Terrible",
+            "voters": [
+                {
+                    "name": "Paul Curran",
+                    "position": 16
+                }
+            ],
+            "rank": 95,
+            "points": 100,
+            "youtube_url": "https://www.youtube.com/watch?v=ak8-Mpb54JM",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\ak8-Mpb54JM.mp4"
+        },
+        {
+            "title": "Voldemort",
+            "artist": "With Confidence",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 17
+                },
+                {
+                    "name": "sammy_morgs",
+                    "position": 25
+                }
+            ],
+            "rank": 94,
+            "points": 100,
+            "youtube_url": "https://www.youtube.com/watch?v=retINhAO-3g",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\retINhAO-3g.mp4"
+        },
+        {
+            "title": "Dreamless",
+            "artist": "The Brave",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 16
+                }
+            ],
+            "rank": 93,
+            "points": 100,
+            "youtube_url": "https://www.youtube.com/watch?v=m-iaPKkpM6s",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\m-iaPKkpM6s.mp4"
+        },
+        {
+            "title": "Thanks for the Burgers",
+            "artist": "Boys of Fall",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 16
+                }
+            ],
+            "rank": 92,
+            "points": 100,
+            "youtube_url": "https://www.youtube.com/watch?v=rRl6ZAKp-10",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\rRl6ZAKp-10.mp4"
+        },
+        {
+            "title": "Darkbloom",
+            "artist": "Invent Animate",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 15
+                }
+            ],
+            "rank": 91,
+            "points": 110,
+            "youtube_url": "https://www.youtube.com/watch?v=r-oAO_6eMug",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\r-oAO_6eMug.mp4"
+        },
+        {
+            "title": "Riot",
+            "artist": "Dance With the Dead",
+            "voters": [
+                {
+                    "name": "Paul Curran",
+                    "position": 15
+                }
+            ],
+            "rank": 90,
+            "points": 110,
+            "youtube_url": "https://www.youtube.com/watch?v=W_5unoZTpoQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\W_5unoZTpoQ.mp4"
+        },
+        {
+            "title": "Deception",
+            "artist": "Dance Gavin Dance",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 15
+                }
+            ],
+            "rank": 89,
+            "points": 110,
+            "youtube_url": "https://www.youtube.com/watch?v=2v5dd6J2f0E",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\2v5dd6J2f0E.mp4"
+        },
+        {
+            "title": "Mustang",
+            "artist": "Skegss",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 14
+                }
+            ],
+            "rank": 88,
+            "points": 120,
+            "youtube_url": "https://www.youtube.com/watch?v=FPv5xIMjhAg",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\FPv5xIMjhAg.mp4"
+        },
+        {
+            "title": "(The New) Jesus",
+            "artist": "Cane Hill",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 14
+                }
+            ],
+            "rank": 87,
+            "points": 120,
+            "youtube_url": "https://www.youtube.com/watch?v=Ukhy2ciV-Vw",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\Ukhy2ciV-Vw.mp4"
+        },
+        {
+            "title": "Little Bird",
+            "artist": "Casey",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 14
+                }
+            ],
+            "rank": 86,
+            "points": 120,
+            "youtube_url": "https://www.youtube.com/watch?v=NZje4wlvNMQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\NZje4wlvNMQ.mp4"
+        },
+        {
+            "title": "Suicide Pact",
+            "artist": "Trophy Eyes",
+            "voters": [
+                {
+                    "name": "Josh Willmott",
+                    "position": 14
+                }
+            ],
+            "rank": 85,
+            "points": 120,
+            "youtube_url": "https://www.youtube.com/watch?v=StmZmF27jBU",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\StmZmF27jBU.mp4"
+        },
+        {
+            "title": "Chocolate Jackalope",
+            "artist": "Dance Gavin Dance",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 14
+                }
+            ],
+            "rank": 84,
+            "points": 120,
+            "youtube_url": "https://www.youtube.com/watch?v=M53cHNgL_vY",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\M53cHNgL_vY.mp4"
+        },
+        {
+            "title": "Stranger",
+            "artist": "Skegss",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 13
+                }
+            ],
+            "rank": 83,
+            "points": 130,
+            "youtube_url": "https://www.youtube.com/watch?v=RBGM1BhAiQY",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\RBGM1BhAiQY.mp4"
+        },
+        {
+            "title": "Haze",
+            "artist": "Casey",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 13
+                }
+            ],
+            "rank": 82,
+            "points": 130,
+            "youtube_url": "https://www.youtube.com/watch?v=zYAFge32iyw",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\zYAFge32iyw.mp4"
+        },
+        {
+            "title": "Deathwish",
+            "artist": "Architects",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 13
+                }
+            ],
+            "rank": 81,
+            "points": 130,
+            "youtube_url": "https://www.youtube.com/watch?v=NMojaaLxyjI",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\NMojaaLxyjI.mp4"
+        },
+        {
+            "title": "Dary",
+            "artist": "Hot Mulligan",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 12
+                }
+            ],
+            "rank": 80,
+            "points": 140,
+            "youtube_url": "https://www.youtube.com/watch?v=8_szbSFit0E",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\8_szbSFit0E.mp4"
+        },
+        {
+            "title": "Brothers Blood",
+            "artist": "Convictions",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 12
+                }
+            ],
+            "rank": 79,
+            "points": 140,
+            "youtube_url": "https://www.youtube.com/watch?v=8jpN8__h2z8",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\8jpN8__h2z8.mp4"
+        },
+        {
+            "title": "Old Friends",
+            "artist": "Pinegrove",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 16
+                },
+                {
+                    "name": "Tom Morgan",
+                    "position": 22
+                }
+            ],
+            "rank": 78,
+            "points": 140,
+            "youtube_url": "https://www.youtube.com/watch?v=pAtGGZjVRdo",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\pAtGGZjVRdo.mp4"
+        },
+        {
+            "title": "Sommersby Rd",
+            "artist": "No! Not the Bees!",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 12
+                }
+            ],
+            "rank": 77,
+            "points": 140,
+            "youtube_url": "https://www.youtube.com/watch?v=5DJv5O84euQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\5DJv5O84euQ.mp4"
+        },
+        {
+            "title": "Praise Poison",
+            "artist": "The Devil Wears Prada",
+            "voters": [
+                {
+                    "name": "Paul Curran",
+                    "position": 12
+                }
+            ],
+            "rank": 76,
+            "points": 140,
+            "youtube_url": "https://www.youtube.com/watch?v=bacSJeFtzBM",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\bacSJeFtzBM.mp4"
+        },
+        {
+            "title": "Fountain of Youth",
+            "artist": "Cane Hill",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 11
+                }
+            ],
+            "rank": 75,
+            "points": 150,
+            "youtube_url": "https://www.youtube.com/watch?v=ehqLWW0pxow",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\ehqLWW0pxow.mp4"
+        },
+        {
+            "title": "She's Out Of Her Mind",
+            "artist": "blink-182",
+            "voters": [
+                {
+                    "name": "Paul Curran",
+                    "position": 11
+                }
+            ],
+            "rank": 74,
+            "points": 150,
+            "youtube_url": "https://www.youtube.com/watch?v=krpm0v_486k",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\krpm0v_486k.mp4"
+        },
+        {
+            "title": "Stay In",
+            "artist": "Horror My Friend",
+            "voters": [
+                {
+                    "name": "Josh Willmott",
+                    "position": 11
+                }
+            ],
+            "rank": 73,
+            "points": 150,
+            "youtube_url": "https://www.youtube.com/watch?v=FmQwOZyaGs4",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\FmQwOZyaGs4.mp4"
+        },
+        {
+            "title": "Headache",
+            "artist": "Tiny Moving Parts",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 10
+                }
+            ],
+            "rank": 72,
+            "points": 160,
+            "youtube_url": "https://www.youtube.com/watch?v=4jPvFO3JUQw",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\4jPvFO3JUQw.mp4"
+        },
+        {
+            "title": "Nervosa",
+            "artist": "Silent Planet",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 10
+                }
+            ],
+            "rank": 71,
+            "points": 160,
+            "youtube_url": "https://www.youtube.com/watch?v=QJCzMqwuJW0",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\QJCzMqwuJW0.mp4"
+        },
+        {
+            "title": "Strangers",
+            "artist": "In Her Own Words",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 10
+                }
+            ],
+            "rank": 70,
+            "points": 160,
+            "youtube_url": "https://www.youtube.com/watch?v=GH4eiLg0MCc",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\GH4eiLg0MCc.mp4"
+        },
+        {
+            "title": "Regress",
+            "artist": "Polaris",
+            "voters": [
+                {
+                    "name": "Paul Curran",
+                    "position": 10
+                }
+            ],
+            "rank": 69,
+            "points": 160,
+            "youtube_url": "https://www.youtube.com/watch?v=JCqgqkVmzKo",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\JCqgqkVmzKo.mp4"
+        },
+        {
+            "title": "Mess",
+            "artist": "Real Friends",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 9
+                }
+            ],
+            "rank": 68,
+            "points": 170,
+            "youtube_url": "https://www.youtube.com/watch?v=uPqho1yuos0",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\uPqho1yuos0.mp4"
+        },
+        {
+            "title": "Coalesce",
+            "artist": "Pridelands",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 9
+                }
+            ],
+            "rank": 67,
+            "points": 170,
+            "youtube_url": "https://www.youtube.com/watch?v=-TnUVNyEmw0",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\-TnUVNyEmw0.mp4"
+        },
+        {
+            "title": "Aggressive",
+            "artist": "Beartooth",
+            "voters": [
+                {
+                    "name": "Paul Curran",
+                    "position": 9
+                }
+            ],
+            "rank": 66,
+            "points": 170,
+            "youtube_url": "https://www.youtube.com/watch?v=q5zUxN-Kvy0",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\q5zUxN-Kvy0.mp4"
+        },
+        {
+            "title": "Frankie Sinatra",
+            "artist": "The Avalanches",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 8
+                }
+            ],
+            "rank": 65,
+            "points": 180,
+            "youtube_url": "https://www.youtube.com/watch?v=SjfspM5sDIA",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\SjfspM5sDIA.mp4"
+        },
+        {
+            "title": "Worst Wishes",
+            "artist": "Movements",
+            "voters": [
+                {
+                    "name": "Tom Morgan",
+                    "position": 8
+                }
+            ],
+            "rank": 64,
+            "points": 180,
+            "youtube_url": "https://www.youtube.com/watch?v=oPayOFuQlBE",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\oPayOFuQlBE.mp4"
+        },
+        {
+            "title": "Deadringer",
+            "artist": "Knocked Loose",
+            "voters": [
+                {
+                    "name": "Josh Willmott",
+                    "position": 8
+                }
+            ],
+            "rank": 63,
+            "points": 180,
+            "youtube_url": "https://www.youtube.com/watch?v=Ugobr5fVuoE",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\Ugobr5fVuoE.mp4"
+        },
+        {
+            "title": "Laika",
+            "artist": "Boston Manor",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 8
+                }
+            ],
+            "rank": 62,
+            "points": 180,
+            "youtube_url": "https://www.youtube.com/watch?v=FsVAMSWobRo",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\FsVAMSWobRo.mp4"
+        },
+        {
+            "title": "Stutter",
+            "artist": "Bugs",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 7
+                }
+            ],
+            "rank": 61,
+            "points": 190,
+            "youtube_url": "https://www.youtube.com/watch?v=T_iDJhKpw9c",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\T_iDJhKpw9c.mp4"
+        },
+        {
+            "title": "White Wolf",
+            "artist": "Invent Animate",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 7
+                }
+            ],
+            "rank": 60,
+            "points": 190,
+            "youtube_url": "https://www.youtube.com/watch?v=lwEiXKI5lDk",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\lwEiXKI5lDk.mp4"
+        },
+        {
+            "title": "Entertainment Lies",
+            "artist": "Hail The Sun",
+            "voters": [
+                {
+                    "name": "Tom Morgan",
+                    "position": 7
+                }
+            ],
+            "rank": 59,
+            "points": 190,
+            "youtube_url": "https://www.youtube.com/watch?v=oRwLPDbkKd0",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\oRwLPDbkKd0.mp4"
+        },
+        {
+            "title": "Pissing off the Neighbors",
+            "artist": "Boys of Fall",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 7
+                }
+            ],
+            "rank": 58,
+            "points": 190,
+            "youtube_url": "https://www.youtube.com/watch?v=UXnTkwJsTGU",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\UXnTkwJsTGU.mp4"
+        },
+        {
+            "title": "24",
+            "artist": "Hellions",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 7
+                }
+            ],
+            "rank": 57,
+            "points": 190,
+            "youtube_url": "https://www.youtube.com/watch?v=6U1slSoCCdc",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\6U1slSoCCdc.mp4"
+        },
+        {
+            "title": "Garbage Man",
+            "artist": "Bugs",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 6
+                }
+            ],
+            "rank": 56,
+            "points": 200,
+            "youtube_url": "https://www.youtube.com/watch?v=WvuEXFF5vKc",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\WvuEXFF5vKc.mp4"
+        },
+        {
+            "title": "Orchid",
+            "artist": "Rarity",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 6
+                }
+            ],
+            "rank": 55,
+            "points": 200,
+            "youtube_url": "https://www.youtube.com/watch?v=_j1l7yQ8KPc",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\_j1l7yQ8KPc.mp4"
+        },
+        {
+            "title": "I Could've Been",
+            "artist": "In Her Own Words",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 6
+                }
+            ],
+            "rank": 54,
+            "points": 200,
+            "youtube_url": "https://www.youtube.com/watch?v=XutEUXhfCrw",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\XutEUXhfCrw.mp4"
+        },
+        {
+            "title": "Refuge",
+            "artist": "Northlane",
+            "voters": [
+                {
+                    "name": "Paul Curran",
+                    "position": 6
+                }
+            ],
+            "rank": 53,
+            "points": 200,
+            "youtube_url": "https://www.youtube.com/watch?v=qqscdw3UQ9Y",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\qqscdw3UQ9Y.mp4"
+        },
+        {
+            "title": "The Black",
+            "artist": "Asking Alexandria",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 8
+                },
+                {
+                    "name": "Paul Curran",
+                    "position": 24
+                }
+            ],
+            "rank": 52,
+            "points": 200,
+            "youtube_url": "https://www.youtube.com/watch?v=b1RKaRgVFKk",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\b1RKaRgVFKk.mp4"
+        },
+        {
+            "title": "Rip & Tear",
+            "artist": "Mick Gordon",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 5
+                }
+            ],
+            "rank": 51,
+            "points": 210,
+            "youtube_url": "https://www.youtube.com/watch?v=zZMg9ryeWOw",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\zZMg9ryeWOw.mp4"
+        },
+        {
+            "title": "Sick II Death",
+            "artist": "No! Not the Bees!",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 11
+                },
+                {
+                    "name": "Tom Morgan",
+                    "position": 20
+                }
+            ],
+            "rank": 50,
+            "points": 210,
+            "youtube_url": "https://www.youtube.com/watch?v=J9HHplU0iqQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\J9HHplU0iqQ.mp4"
+        },
+        {
+            "title": "Gone with the Wind",
+            "artist": "Architects",
+            "voters": [
+                {
+                    "name": "Paul Curran",
+                    "position": 5
+                }
+            ],
+            "rank": 49,
+            "points": 210,
+            "youtube_url": "https://www.youtube.com/watch?v=0d-1ZilyKdw",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\0d-1ZilyKdw.mp4"
+        },
+        {
+            "title": "So Sentimental",
+            "artist": "Violent Soho",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 5
+                }
+            ],
+            "rank": 48,
+            "points": 210,
+            "youtube_url": "https://www.youtube.com/watch?v=XmTFmf8DKBI",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\XmTFmf8DKBI.mp4"
+        },
+        {
+            "title": "DVP",
+            "artist": "PUP",
+            "voters": [
+                {
+                    "name": "Paul Curran",
+                    "position": 7
+                },
+                {
+                    "name": "Josh Willmott",
+                    "position": 24
+                }
+            ],
+            "rank": 47,
+            "points": 210,
+            "youtube_url": "https://www.youtube.com/watch?v=iVuB1ZASrGw",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\iVuB1ZASrGw.mp4"
+        },
+        {
+            "title": "Quality of Life",
+            "artist": "Hellions",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 11
+                },
+                {
+                    "name": "Paul Curran",
+                    "position": 20
+                }
+            ],
+            "rank": 46,
+            "points": 210,
+            "youtube_url": "https://www.youtube.com/watch?v=T2I4XgFqVrE",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\T2I4XgFqVrE.mp4"
+        },
+        {
+            "title": "New Halloween",
+            "artist": "Touch\u00e9 Amor\u00e9",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 4
+                }
+            ],
+            "rank": 45,
+            "points": 220,
+            "youtube_url": "https://www.youtube.com/watch?v=MQL-F8tlFI8",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\MQL-F8tlFI8.mp4"
+        },
+        {
+            "title": "To the Key of Evergreen",
+            "artist": "The Devil Wears Prada",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 4
+                }
+            ],
+            "rank": 44,
+            "points": 220,
+            "youtube_url": "https://www.youtube.com/watch?v=OpL7JO31TO4",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\OpL7JO31TO4.mp4"
+        },
+        {
+            "title": "Stay Lost",
+            "artist": "Sianvar",
+            "voters": [
+                {
+                    "name": "Tom Morgan",
+                    "position": 4
+                }
+            ],
+            "rank": 43,
+            "points": 220,
+            "youtube_url": "https://www.youtube.com/watch?v=9TdviCgMlHg",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\9TdviCgMlHg.mp4"
+        },
+        {
+            "title": "Molly Blooms",
+            "artist": "Coldfront",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 4
+                }
+            ],
+            "rank": 42,
+            "points": 220,
+            "youtube_url": "https://www.youtube.com/watch?v=7ppify-CqfI",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\7ppify-CqfI.mp4"
+        },
+        {
+            "title": "Rain On Me",
+            "artist": "Trophy Eyes",
             "voters": [
                 {
                     "name": "Paul Curran",
                     "position": 3
                 }
             ],
-            "rank": 3,
+            "rank": 41,
             "points": 230,
-            "youtube_url": "https://www.youtube.com/watch?v=nC7ii3Ir-no",
-            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\nC7ii3Ir-no.mp4"
+            "youtube_url": "https://www.youtube.com/watch?v=UTEhCgeyMxY",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\UTEhCgeyMxY.mp4"
         },
         {
-            "title": "Bring Me To Life",
-            "artist": "Evanescence",
+            "title": "You're So Wonderful",
+            "artist": "Cane Hill",
             "voters": [
                 {
-                    "name": "Paul Curran",
+                    "name": "Matthew Di Blasi",
+                    "position": 3
+                }
+            ],
+            "rank": 40,
+            "points": 230,
+            "youtube_url": "https://www.youtube.com/watch?v=W_4adsLrlyE",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\W_4adsLrlyE.mp4"
+        },
+        {
+            "title": "Stop Trying, Be Nothing.",
+            "artist": "Boston Manor",
+            "voters": [
+                {
+                    "name": "Tom Morgan",
+                    "position": 3
+                }
+            ],
+            "rank": 39,
+            "points": 230,
+            "youtube_url": "https://www.youtube.com/watch?v=_Z6HGs7uZqE",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\_Z6HGs7uZqE.mp4"
+        },
+        {
+            "title": "Brother's Keeper",
+            "artist": "Basement",
+            "voters": [
+                {
+                    "name": "Josh Willmott",
+                    "position": 6
+                },
+                {
+                    "name": "Tom Morgan",
+                    "position": 23
+                }
+            ],
+            "rank": 38,
+            "points": 230,
+            "youtube_url": "https://www.youtube.com/watch?v=6UKVxnu5jv4",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\6UKVxnu5jv4.mp4"
+        },
+        {
+            "title": "Home Is",
+            "artist": "Trophy Eyes",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 3
+                }
+            ],
+            "rank": 37,
+            "points": 230,
+            "youtube_url": "https://www.youtube.com/watch?v=_krZrq_1GGw",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\_krZrq_1GGw.mp4"
+        },
+        {
+            "title": "Esky Lid",
+            "artist": "Bugs",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
                     "position": 2
                 }
             ],
-            "rank": 2,
+            "rank": 36,
             "points": 240,
-            "youtube_url": "https://www.youtube.com/watch?v=3YxaaGgTQYM",
-            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\3YxaaGgTQYM.mp4"
+            "youtube_url": "https://www.youtube.com/watch?v=J9IRbBWdu20",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\J9IRbBWdu20.mp4"
         },
         {
-            "title": "People-vultures",
-            "artist": "King Giz",
+            "title": "Silver Lights",
+            "artist": "In Her Own Words",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 2
+                }
+            ],
+            "rank": 35,
+            "points": 240,
+            "youtube_url": "https://www.youtube.com/watch?v=zXtx0uJ7nYs",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\zXtx0uJ7nYs.mp4"
+        },
+        {
+            "title": "Nose Bleed",
+            "artist": "Trophy Eyes",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 12
+                },
+                {
+                    "name": "Josh Willmott",
+                    "position": 16
+                }
+            ],
+            "rank": 34,
+            "points": 240,
+            "youtube_url": "https://www.youtube.com/watch?v=fXVXMTF-Okg",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\fXVXMTF-Okg.mp4"
+        },
+        {
+            "title": "Instant Coffee",
+            "artist": "Bugs",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 1
+                }
+            ],
+            "rank": 33,
+            "points": 250,
+            "youtube_url": "https://www.youtube.com/watch?v=QKGXhnvMAyQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\QKGXhnvMAyQ.mp4"
+        },
+        {
+            "title": "Psychosis Succumbing",
+            "artist": "Sianvar",
+            "voters": [
+                {
+                    "name": "Tom Morgan",
+                    "position": 1
+                }
+            ],
+            "rank": 32,
+            "points": 250,
+            "youtube_url": "https://www.youtube.com/watch?v=e_Fojt3DgYM",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\e_Fojt3DgYM.mp4"
+        },
+        {
+            "title": "Betrayed By The Game",
+            "artist": "Dance Gavin Dance",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 9
+                },
+                {
+                    "name": "Tom Morgan",
+                    "position": 18
+                }
+            ],
+            "rank": 31,
+            "points": 250,
+            "youtube_url": "https://www.youtube.com/watch?v=wUL5lnd9iXI",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\wUL5lnd9iXI.mp4"
+        },
+        {
+            "title": "Flossie Dickey Bounce",
+            "artist": "Dance Gavin Dance",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 1
+                }
+            ],
+            "rank": 30,
+            "points": 250,
+            "youtube_url": "https://www.youtube.com/watch?v=gfHINzPitH8",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\gfHINzPitH8.mp4"
+        },
+        {
+            "title": "Death To The Lads",
+            "artist": "The Smith Street Band",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 3
+                },
+                {
+                    "name": "Chris",
+                    "position": 24
+                },
+                {
+                    "name": "Paul Curran",
+                    "position": 25
+                }
+            ],
+            "rank": 29,
+            "points": 260,
+            "youtube_url": "https://www.youtube.com/watch?v=FvreUyQ8SM4",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\FvreUyQ8SM4.mp4"
+        },
+        {
+            "title": "How To Taste",
+            "artist": "Violent Soho",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 11
+                },
+                {
+                    "name": "sammy_morgs",
+                    "position": 15
+                }
+            ],
+            "rank": 28,
+            "points": 260,
+            "youtube_url": "https://www.youtube.com/watch?v=AKbVWHll1Sk",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\AKbVWHll1Sk.mp4"
+        },
+        {
+            "title": "I Learned My Lesson",
+            "artist": "Boys of Fall",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 1
+                },
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 23
+                }
+            ],
+            "rank": 27,
+            "points": 280,
+            "youtube_url": "https://www.youtube.com/watch?v=goAMU2iEv9M",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\goAMU2iEv9M.mp4"
+        },
+        {
+            "title": "Knuckles",
+            "artist": "Moose Blood",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 5
+                },
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 18
+                }
+            ],
+            "rank": 26,
+            "points": 290,
+            "youtube_url": "https://www.youtube.com/watch?v=4-xExH_tpZk",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\4-xExH_tpZk.mp4"
+        },
+        {
+            "title": "Lead Feet",
+            "artist": "Boston Manor",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 9
+                },
+                {
+                    "name": "Josh Willmott",
+                    "position": 13
+                }
+            ],
+            "rank": 25,
+            "points": 300,
+            "youtube_url": "https://www.youtube.com/watch?v=LpRjKEdW1mw",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\LpRjKEdW1mw.mp4"
+        },
+        {
+            "title": "Tring Quarry",
+            "artist": "Trash Boat",
+            "voters": [
+                {
+                    "name": "Daine Carlon",
+                    "position": 3
+                },
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 19
+                }
+            ],
+            "rank": 24,
+            "points": 300,
+            "youtube_url": "https://www.youtube.com/watch?v=R4fls7nnxmI",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\R4fls7nnxmI.mp4"
+        },
+        {
+            "title": "Understanding Love as Loss",
+            "artist": "Silent Planet",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 5
+                },
+                {
+                    "name": "Tom Morgan",
+                    "position": 16
+                }
+            ],
+            "rank": 23,
+            "points": 310,
+            "youtube_url": "https://www.youtube.com/watch?v=9HHk2TuK2CE",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\9HHk2TuK2CE.mp4"
+        },
+        {
+            "title": "Overstepping",
+            "artist": "Belmont",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 7
+                },
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 16
+                },
+                {
+                    "name": "Tom Morgan",
+                    "position": 24
+                }
+            ],
+            "rank": 22,
+            "points": 310,
+            "youtube_url": "https://www.youtube.com/watch?v=yZHu0VO1abI",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\yZHu0VO1abI.mp4"
+        },
+        {
+            "title": "Strangers",
+            "artist": "Trash Boat",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 6
+                },
+                {
+                    "name": "Daine Carlon",
+                    "position": 15
+                }
+            ],
+            "rank": 21,
+            "points": 310,
+            "youtube_url": "https://www.youtube.com/watch?v=HFs6-TbhlaI",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\HFs6-TbhlaI.mp4"
+        },
+        {
+            "title": "Nihilist",
+            "artist": "Architects",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 6
+                },
+                {
+                    "name": "Paul Curran",
+                    "position": 13
+                }
+            ],
+            "rank": 20,
+            "points": 330,
+            "youtube_url": "https://www.youtube.com/watch?v=TcTmJ1UEKt0",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\TcTmJ1UEKt0.mp4"
+        },
+        {
+            "title": "Like Soda",
+            "artist": "Violent Soho",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 4
+                },
+                {
+                    "name": "Paul Curran",
+                    "position": 14
+                }
+            ],
+            "rank": 19,
+            "points": 340,
+            "youtube_url": "https://www.youtube.com/watch?v=hRWi-SvzviY",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\hRWi-SvzviY.mp4"
+        },
+        {
+            "title": "Promise Everything",
+            "artist": "Basement",
+            "voters": [
+                {
+                    "name": "Josh Willmott",
+                    "position": 9
+                },
+                {
+                    "name": "Tom Morgan",
+                    "position": 9
+                }
+            ],
+            "rank": 18,
+            "points": 340,
+            "youtube_url": "https://www.youtube.com/watch?v=IJ-YWOja248",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\IJ-YWOja248.mp4"
+        },
+        {
+            "title": "A Match Made in Heaven",
+            "artist": "Architects",
             "voters": [
                 {
                     "name": "Paul Curran",
                     "position": 1
+                },
+                {
+                    "name": "Chris",
+                    "position": 15
+                }
+            ],
+            "rank": 17,
+            "points": 360,
+            "youtube_url": "https://www.youtube.com/watch?v=O59JNz7rdIU",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\O59JNz7rdIU.mp4"
+        },
+        {
+            "title": "Midnight Zone",
+            "artist": "Balance And Composure",
+            "voters": [
+                {
+                    "name": "Josh Willmott",
+                    "position": 4
+                },
+                {
+                    "name": "Tom Morgan",
+                    "position": 12
+                }
+            ],
+            "rank": 16,
+            "points": 360,
+            "youtube_url": "https://www.youtube.com/watch?v=3sfWeyN-KBg",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\3sfWeyN-KBg.mp4"
+        },
+        {
+            "title": "Chucky vs. The Giant Tortoise",
+            "artist": "Dance Gavin Dance",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 5
+                },
+                {
+                    "name": "Tom Morgan",
+                    "position": 11
+                }
+            ],
+            "rank": 15,
+            "points": 360,
+            "youtube_url": "https://www.youtube.com/watch?v=gDCHx4tPv-Y",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\gDCHx4tPv-Y.mp4"
+        },
+        {
+            "title": "Datamosh",
+            "artist": "No! Not the Bees!",
+            "voters": [
+                {
+                    "name": "sammy_morgs",
+                    "position": 10
+                },
+                {
+                    "name": "Chris",
+                    "position": 14
+                },
+                {
+                    "name": "Daine Carlon",
+                    "position": 17
+                }
+            ],
+            "rank": 14,
+            "points": 370,
+            "youtube_url": "https://www.youtube.com/watch?v=E1NUNlGItco",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\E1NUNlGItco.mp4"
+        },
+        {
+            "title": "Orphan",
+            "artist": "Silent Planet",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 1
+                },
+                {
+                    "name": "Tom Morgan",
+                    "position": 13
+                }
+            ],
+            "rank": 13,
+            "points": 380,
+            "youtube_url": "https://www.youtube.com/watch?v=a3TpBg1T9_k",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\a3TpBg1T9_k.mp4"
+        },
+        {
+            "title": "It's Always Sunny in Arkadelphia",
+            "artist": "Boys of Fall",
+            "voters": [
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 2
+                },
+                {
+                    "name": "Daine Carlon",
+                    "position": 11
+                }
+            ],
+            "rank": 12,
+            "points": 390,
+            "youtube_url": "https://www.youtube.com/watch?v=gEiGy7ONqAs",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\gEiGy7ONqAs.mp4"
+        },
+        {
+            "title": "Thresher",
+            "artist": "Hellions",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 2
+                },
+                {
+                    "name": "Josh Willmott",
+                    "position": 10
+                }
+            ],
+            "rank": 11,
+            "points": 400,
+            "youtube_url": "https://www.youtube.com/watch?v=kHcvGC_3LMA",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\kHcvGC_3LMA.mp4"
+        },
+        {
+            "title": "Lotus Eater",
+            "artist": "Hellions",
+            "voters": [
+                {
+                    "name": "Paul Curran",
+                    "position": 2
+                },
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 10
+                }
+            ],
+            "rank": 10,
+            "points": 400,
+            "youtube_url": "https://www.youtube.com/watch?v=6SNbfTRQSqo",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\6SNbfTRQSqo.mp4"
+        },
+        {
+            "title": "No Repercussions",
+            "artist": "No! Not the Bees!",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 2
+                },
+                {
+                    "name": "sammy_morgs",
+                    "position": 9
+                }
+            ],
+            "rank": 9,
+            "points": 410,
+            "youtube_url": "https://www.youtube.com/watch?v=shxp0KpWrIk",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\shxp0KpWrIk.mp4"
+        },
+        {
+            "title": "Afterparty",
+            "artist": "Balance And Composure",
+            "voters": [
+                {
+                    "name": "Josh Willmott",
+                    "position": 3
+                },
+                {
+                    "name": "Paul Curran",
+                    "position": 8
+                }
+            ],
+            "rank": 8,
+            "points": 410,
+            "youtube_url": "https://www.youtube.com/watch?v=k62wtlsD25E",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\k62wtlsD25E.mp4"
+        },
+        {
+            "title": "Kept",
+            "artist": "Movements",
+            "voters": [
+                {
+                    "name": "Josh Willmott",
+                    "position": 2
+                },
+                {
+                    "name": "Daine Carlon",
+                    "position": 12
+                },
+                {
+                    "name": "Tom Morgan",
+                    "position": 14
+                }
+            ],
+            "rank": 7,
+            "points": 500,
+            "youtube_url": "https://www.youtube.com/watch?v=mPwf10pKRk8",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\mPwf10pKRk8.mp4"
+        },
+        {
+            "title": "Gamma Knife",
+            "artist": "King Gizzard & the Lizard Wizard",
+            "voters": [
+                {
+                    "name": "Paul Curran",
+                    "position": 4
+                },
+                {
+                    "name": "Josh Willmott",
+                    "position": 5
+                },
+                {
+                    "name": "sammy_morgs",
+                    "position": 17
+                }
+            ],
+            "rank": 6,
+            "points": 520,
+            "youtube_url": "https://www.youtube.com/watch?v=nC7ii3Ir-no",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\nC7ii3Ir-no.mp4"
+        },
+        {
+            "title": "Heaven Sent",
+            "artist": "Trophy Eyes",
+            "voters": [
+                {
+                    "name": "Tom Morgan",
+                    "position": 5
+                },
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 8
+                },
+                {
+                    "name": "Josh Willmott",
+                    "position": 12
+                }
+            ],
+            "rank": 5,
+            "points": 530,
+            "youtube_url": "https://www.youtube.com/watch?v=R7GMOoQAkCM",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\R7GMOoQAkCM.mp4"
+        },
+        {
+            "title": "Panic Room",
+            "artist": "Silent Planet",
+            "voters": [
+                {
+                    "name": "Chris",
+                    "position": 1
+                },
+                {
+                    "name": "Tom Morgan",
+                    "position": 10
+                },
+                {
+                    "name": "Matthew Di Blasi",
+                    "position": 13
+                }
+            ],
+            "rank": 4,
+            "points": 540,
+            "youtube_url": "https://www.youtube.com/watch?v=VbaFJiWftwk",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\VbaFJiWftwk.mp4"
+        },
+        {
+            "title": "Counting Sheep",
+            "artist": "Trophy Eyes",
+            "voters": [
+                {
+                    "name": "Tom Morgan",
+                    "position": 2
+                },
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 13
+                },
+                {
+                    "name": "Josh Willmott",
+                    "position": 15
+                },
+                {
+                    "name": "Paul Curran",
+                    "position": 17
+                }
+            ],
+            "rank": 3,
+            "points": 570,
+            "youtube_url": "https://www.youtube.com/watch?v=8oMzcu0b5rY",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\8oMzcu0b5rY.mp4"
+        },
+        {
+            "title": "Chlorine",
+            "artist": "Trophy Eyes",
+            "voters": [
+                {
+                    "name": "Josh Willmott",
+                    "position": 1
+                },
+                {
+                    "name": "Chris",
+                    "position": 3
+                },
+                {
+                    "name": "Tom Morgan",
+                    "position": 15
+                },
+                {
+                    "name": "Paul Curran",
+                    "position": 21
+                },
+                {
+                    "name": "Daine Carlon",
+                    "position": 21
+                }
+            ],
+            "rank": 2,
+            "points": 690,
+            "youtube_url": "https://www.youtube.com/watch?v=E5vZNTnT1QE",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\E5vZNTnT1QE.mp4"
+        },
+        {
+            "title": "Counting Worms",
+            "artist": "Knocked Loose",
+            "voters": [
+                {
+                    "name": "Alex Smaniotto",
+                    "position": 4
+                },
+                {
+                    "name": "Tom Morgan",
+                    "position": 6
+                },
+                {
+                    "name": "Josh Willmott",
+                    "position": 7
+                },
+                {
+                    "name": "Chris",
+                    "position": 8
+                },
+                {
+                    "name": "Paul Curran",
+                    "position": 19
                 }
             ],
             "rank": 1,
-            "points": 250,
-            "youtube_url": "https://www.youtube.com/watch?v=6f78_Tf4Tdk",
-            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\6f78_Tf4Tdk.mp4"
+            "points": 860,
+            "youtube_url": "https://www.youtube.com/watch?v=Lei58UXZzUQ",
+            "video_file_location": "C:\\programPlaygrounds\\local-100\\data\\videos\\Lei58UXZzUQ.mp4"
         }
     ]
 }

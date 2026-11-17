@@ -38,6 +38,6 @@ else
 fi
 
 pip install -r requirements.txt
-python -m src.cli.setup
+python -W ignore::SyntaxWarning -m src.cli.setup
 
 echo "Setup complete. Run the application using ./run.sh"

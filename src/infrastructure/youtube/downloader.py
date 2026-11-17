@@ -13,6 +13,8 @@ logger = LogConfig.get_logger()
 
 RETRY_DELAYS = [30, 60, 120]
 PAUSE_BETWEEN_VIDEOS = 3
+# (pytubefix client, use_oauth) in fallback order; TV needs OAuth so it goes last
+CLIENTS = [("VISION_OS", False), ("ANDROID_VR", False), ("MWEB", False), ("TV", True)]
 
 
 class YouTubeVideoDownloader:
@@ -49,11 +51,30 @@ class YouTubeVideoDownloader:
                 logger.warning(f"Attempt {attempt + 1} failed for {url}, retrying in {delay}s")
                 time.sleep(delay)
 
+    def _open_video(self, url: str) -> YouTube:
+        """Try each client in order and return the first that yields video metadata."""
+        last_error = None
+        for client, use_oauth in CLIENTS:
+            # OAuth token is cached so login is only prompted once, and only if a client needs it
+            extra = {"oauth_verifier": self._oauth_verifier} if use_oauth and self._oauth_verifier else {}
+            try:
+                yt = YouTube(
+                    url,
+                    client=client,
+                    on_progress_callback=on_progress,
+                    use_oauth=use_oauth,
+                    allow_oauth_cache=True,
+                    **extra,
+                )
+                logger.debug(f"Client {client}: title={yt.title!r}, length={yt.length}s")
+                return yt
+            except Exception as e:
+                logger.debug(f"Client {client} failed for {url}: {e!r}")
+                last_error = e
+        raise last_error
+
     def _download(self, url: str, filename: str) -> bool:
-        # OAuth avoids the anonymous 403s; the token is cached so login is only prompted once
-        extra = {"oauth_verifier": self._oauth_verifier} if self._oauth_verifier else {}
-        yt = YouTube(url, on_progress_callback=on_progress, use_oauth=True, allow_oauth_cache=True, **extra)
-        logger.debug(f"Video metadata: title={yt.title!r}, length={yt.length}s")
+        yt = self._open_video(url)
 
         video_stream = yt.streams.filter(
             adaptive=True,
