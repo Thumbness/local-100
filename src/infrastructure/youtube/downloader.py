@@ -62,6 +62,7 @@ class YouTubeVideoDownloader:
                 "merge_output_format": "mp4",
                 "outtmpl": os.path.join(tmp, "video.%(ext)s"),
                 "socket_timeout": REQUEST_TIMEOUT,
+                "js_runtimes": {"node": {}},  # yt-dlp only enables deno by default
                 "quiet": True,
                 "no_warnings": True,
                 "noprogress": True,
