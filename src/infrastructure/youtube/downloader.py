@@ -69,7 +69,7 @@ class YouTubeVideoDownloader:
                 logger.debug(f"Client {client}: title={yt.title!r}, length={yt.length}s")
                 return yt
             except Exception as e:
-                logger.debug(f"Client {client} failed for {url}: {e!r}")
+                logger.warning(f"Client {client} failed for {url}: {e!r}")
                 last_error = e
         raise last_error
 
