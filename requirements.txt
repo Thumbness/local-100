@@ -1,4 +1,4 @@
-pytubefix
+yt-dlp
 loguru
 flask
 requests

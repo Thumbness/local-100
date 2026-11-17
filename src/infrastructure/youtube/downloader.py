@@ -1,46 +1,34 @@
 import os
 import shutil
-import socket
-import subprocess
 import tempfile
 import time
-from contextlib import contextmanager
 
-from pytubefix import YouTube
-from pytubefix.cli import on_progress
-from pytubefix.exceptions import AgeRestrictedError
+from yt_dlp import YoutubeDL
+from yt_dlp.utils import DownloadError
+
 from ...config.LoggerConfig import LogConfig
 
 logger = LogConfig.get_logger()
 
 RETRY_DELAYS = [30, 60, 120]
 PAUSE_BETWEEN_VIDEOS = 3
-# (pytubefix client, use_oauth) in fallback order; TV needs OAuth so it goes last
-REQUEST_TIMEOUT = 30  # seconds; pytubefix sets none, so a stalled YouTube response would hang forever
+REQUEST_TIMEOUT = 30  # seconds; a stalled YouTube response fails instead of hanging
 
+# Prefer mp4 video + m4a audio so ffmpeg can merge by copying, then fall back to whatever is best
+VIDEO_FORMAT = "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]/bv*+ba/b"
 
-@contextmanager
-def _socket_timeout(seconds):
-    previous = socket.getdefaulttimeout()
-    socket.setdefaulttimeout(seconds)
-    try:
-        yield
-    finally:
-        socket.setdefaulttimeout(previous)
-
-
-CLIENTS = [("VISION_OS", False), ("ANDROID_VR", False), ("TV", True)]
+# Errors that retrying will not fix
+PERMANENT_ERRORS = ("confirm your age", "private video", "video unavailable", "has been removed")
 
 
 class YouTubeVideoDownloader:
-    """Downloads countdown videos into one folder. Implements the VideoDownloader port."""
+    """Downloads countdown videos into one folder with yt-dlp. Implements the VideoDownloader port."""
 
-    def __init__(self, videos_dir, oauth_verifier=None):
+    def __init__(self, videos_dir, cookies_file=None):
         self._output_dir = str(videos_dir)
         os.makedirs(self._output_dir, exist_ok=True)
-        # Called with (verification_url, user_code) when YouTube sign-in is needed.
-        # When None, pytubefix prints the code and waits for Enter in the terminal.
-        self._oauth_verifier = oauth_verifier
+        # Netscape-format cookies exported from a signed-in browser; needed for age-restricted videos
+        self._cookies_file = str(cookies_file) if cookies_file else None
 
     def download(self, url: str, filename: str) -> None:
         final_path = os.path.join(self._output_dir, filename)
@@ -51,85 +39,52 @@ class YouTubeVideoDownloader:
         logger.info(f"Starting download for URL: {url}")
         for attempt in range(len(RETRY_DELAYS) + 1):
             try:
-                if self._download(url, filename):
-                    logger.success(f"Download completed: {filename}")
+                self._download(url, final_path)
+                logger.success(f"Download completed: {filename}")
                 time.sleep(PAUSE_BETWEEN_VIDEOS)
                 return
-            except AgeRestrictedError:
-                logger.warning(f"Skipping age-restricted video (needs a logged-in account): {url}")
-                return
-            except Exception:
+            except Exception as e:
+                if self._is_permanent(e):
+                    logger.warning(f"Skipping video that cannot be downloaded: {url} ({self._short(e)})")
+                    return
                 if attempt == len(RETRY_DELAYS):
                     logger.exception(f"Download failed for URL: {url}")
                     return
                 delay = RETRY_DELAYS[attempt]
-                logger.warning(f"Attempt {attempt + 1} failed for {url}, retrying in {delay}s")
+                logger.warning(f"Attempt {attempt + 1} failed for {url} ({self._short(e)}), retrying in {delay}s")
                 time.sleep(delay)
 
-    def _open_video(self, url: str) -> YouTube:
-        """Try each client in order and return the first that yields video metadata."""
-        last_error = None
-        for client, use_oauth in CLIENTS:
-            # OAuth token is cached so login is only prompted once, and only if a client needs it
-            extra = {"oauth_verifier": self._oauth_verifier} if use_oauth and self._oauth_verifier else {}
-            try:
-                with _socket_timeout(REQUEST_TIMEOUT):
-                    yt = YouTube(
-                        url,
-                        client=client,
-                        on_progress_callback=on_progress,
-                        use_oauth=use_oauth,
-                        allow_oauth_cache=True,
-                        **extra,
-                    )
-                    logger.debug(f"Client {client}: title={yt.title!r}, length={yt.length}s")
-                return yt
-            except Exception as e:
-                logger.warning(f"Client {client} failed for {url}: {e!r}")
-                last_error = e
-        raise last_error
-
-    def _download(self, url: str, filename: str) -> bool:
-        yt = self._open_video(url)
-
-        video_stream = yt.streams.filter(
-            adaptive=True,
-            file_extension="mp4",
-            only_video=True
-        ).order_by("resolution").desc().first()
-
-        audio_stream = yt.streams.filter(
-            adaptive=True,
-            file_extension="mp4",
-            only_audio=True
-        ).order_by("abr").desc().first()
-
-        if video_stream is None or audio_stream is None:
-            logger.error(f"No suitable adaptive streams for URL: {url}")
-            return False
-
-        logger.debug(
-            f"Video: itag={video_stream.itag}, res={video_stream.resolution} | "
-            f"Audio: itag={audio_stream.itag}, abr={audio_stream.abr}"
-        )
-
+    def _download(self, url: str, final_path: str) -> None:
+        # Download inside a temp folder so a failed download or merge never leaves a partial file behind
         with tempfile.TemporaryDirectory() as tmp:
-            video_file = os.path.join(tmp, "video.mp4")
-            audio_file = os.path.join(tmp, "audio.mp4")
+            options = {
+                "format": VIDEO_FORMAT,
+                "merge_output_format": "mp4",
+                "outtmpl": os.path.join(tmp, "video.%(ext)s"),
+                "socket_timeout": REQUEST_TIMEOUT,
+                "quiet": True,
+                "no_warnings": True,
+                "noprogress": True,
+                "noplaylist": True,
+            }
+            if self._cookies_file and os.path.isfile(self._cookies_file):
+                # yt-dlp rewrites its cookie file, so give it a copy and keep the original untouched
+                cookies_copy = os.path.join(tmp, "cookies.txt")
+                shutil.copyfile(self._cookies_file, cookies_copy)
+                options["cookiefile"] = cookies_copy
 
-            video_stream.download(output_path=tmp, filename="video.mp4")
-            audio_stream.download(output_path=tmp, filename="audio.mp4")
+            with YoutubeDL(options) as ydl:
+                ydl.download([url])
 
-            # Merge with ffmpeg inside the temp folder so a failed merge never leaves a partial file behind
-            merged_file = os.path.join(tmp, "merged.mp4")
-            cmd = [
-                "ffmpeg", "-y",
-                "-i", video_file,
-                "-i", audio_file,
-                "-c", "copy",
-                merged_file
-            ]
-            subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
-            shutil.move(merged_file, os.path.join(self._output_dir, filename))
+            merged_file = os.path.join(tmp, "video.mp4")
+            if not os.path.exists(merged_file):
+                raise RuntimeError(f"yt-dlp produced no mp4 file for {url}")
+            shutil.move(merged_file, final_path)
 
-        return True
+    @staticmethod
+    def _short(error: Exception) -> str:
+        return str(error).strip().splitlines()[-1] if str(error).strip() else repr(error)
+
+    @staticmethod
+    def _is_permanent(error: Exception) -> bool:
+        return isinstance(error, DownloadError) and any(text in str(error).lower() for text in PERMANENT_ERRORS)

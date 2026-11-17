@@ -4,3 +4,4 @@ logs/
 data/videos/*
 data/auth/
 .env
+data/cookies.txt

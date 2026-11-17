@@ -10,11 +10,8 @@ jobs = JobStore()
 
 
 def import_job(raw, ctx: JobContext) -> dict:
-    """Runs in the background. A YouTube sign-in prompt is shown to the user on the progress page."""
-    service = countdown_service(
-        oauth_verifier=lambda url, code: ctx.wait_for_user({"url": url, "code": code}),
-    )
-    return service.import_raw(raw, ctx.progress)
+    """Runs in the background and reports progress to the progress page."""
+    return countdown_service().import_raw(raw, ctx.progress)
 
 
 @upload_bp.route("/", methods=["GET", "POST"])

@@ -18,13 +18,18 @@ from .infrastructure.youtube.downloader import YouTubeVideoDownloader
 load_dotenv(APP_HOME / ".env")
 
 
-def countdown_service(oauth_verifier=None) -> CountdownService:
+def youtube_cookies_file() -> Path:
+    """Browser cookies for age-restricted videos. Defaults to data/cookies.txt; YTDLP_COOKIES_FILE overrides it."""
+    return Path(os.getenv("YTDLP_COOKIES_FILE") or APP_HOME / "data" / "cookies.txt")
+
+
+def countdown_service() -> CountdownService:
     store = CountdownFileStore(
         raw_path=APP_PARAMS["COUNTDOWN.RAW.DATA.FILEPATH"],
         results_path=APP_PARAMS["COUNTDOWN.RESULTS.DATA.FILEPATH"],
         videos_dir=APP_PARAMS["COUNTDOWN.RESULTS.VIDEOS.DIRECTORY"],
     )
-    downloader = YouTubeVideoDownloader(store.videos_dir, oauth_verifier=oauth_verifier)
+    downloader = YouTubeVideoDownloader(store.videos_dir, cookies_file=youtube_cookies_file())
     return CountdownService(store=store, downloader=downloader, source=CountdownFileFormat())
 
 
